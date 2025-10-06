@@ -1,0 +1,227 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, release notes, enhancements, fixes, licenses, subscriptions' 
+summary: Saiba o que há de novo nas licenças e assinaturas do NetApp Console. 
+---
+= O que há de novo
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Saiba o que há de novo nas licenças e assinaturas do NetApp Console.
+
+
+
+== 06 de outubro de 2025
+
+
+
+=== BlueXP agora é NetApp Console
+
+O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
+
+Para obter detalhes sobre o que mudou, consulte olink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de versão do NetApp Console"] .
+
+
+
+== 10 de março de 2025
+
+
+
+=== Capacidade de remover assinaturas
+
+Agora você pode remover assinaturas da carteira digital caso tenha cancelado a assinatura delas.
+
+
+
+=== Exibir capacidade consumida para assinaturas do Marketplace
+
+Ao visualizar assinaturas PAYGO, agora você pode visualizar a capacidade consumida da assinatura.
+
+
+
+== 10 de fevereiro de 2025
+
+A BlueXP digital wallet foi redesenhada para facilitar o uso e agora oferece gerenciamento adicional de assinaturas e licenças.
+
+
+
+=== Novo painel de visão geral
+
+A página inicial da carteira digital tem um painel atualizado de suas licenças NetApp e assinaturas do Marketplace, com a capacidade de detalhar serviços específicos, tipos de licença e ações necessárias.
+
+
+
+=== Configurando assinaturas para credenciais
+
+A BlueXP digital wallet agora permite que você configure suas assinaturas para credenciais de provedores.  Normalmente, você faz isso quando assina pela primeira vez uma assinatura do Marketplace ou um contrato anual.  Anteriormente, a alteração das credenciais da assinatura só podia ser feita na página Credenciais.
+
+
+
+=== Associando assinaturas a organizações
+
+Agora você pode atualizar a organização à qual uma assinatura está associada diretamente da carteira digital.
+
+
+
+=== Gerenciando licenças do Cloud Volume ONTAP
+
+Agora você gerencia as licenças do Cloud Volumes ONTAP por meio da página inicial ou da aba *Licenças diretas*.  Use a aba *Assinaturas do Marketplace* para visualizar as informações da sua assinatura.
+
+
+
+== 5 de março de 2024
+
+
+
+=== BlueXP disaster recovery
+
+A BlueXP digital wallet agora permite que você gerencie licenças para BlueXP disaster recovery.  Você pode adicionar licenças, atualizar licenças e visualizar detalhes sobre a capacidade licenciada.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["Aprenda a gerenciar licenças para serviços de dados BlueXP"]
+
+
+
+== 30 Julho 2023
+
+
+
+=== Melhorias nos relatórios de uso
+
+Várias melhorias nos relatórios de uso do Cloud Volumes ONTAP já estão disponíveis:
+
+* A unidade TiB agora está incluída no nome das colunas.
+* Um novo campo _nó(s)_ para números de série agora está incluído.
+* Uma nova coluna _Tipo de carga de trabalho_ agora está incluída no relatório de uso de VMs de armazenamento.
+* Os nomes do ambiente de trabalho agora estão incluídos nos relatórios de uso de volumes e VMs de armazenamento.
+* O tipo de volume _arquivo_ agora é rotulado como _Primário (Leitura/Gravação)_.
+* O tipo de volume _secundário_ agora é rotulado como _Secundário (DP)_.
+
+
+Para obter mais informações sobre os relatórios de uso, consulte https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["Baixar relatórios de uso"] .
+
+
+
+== 7 de maio de 2023
+
+
+
+=== Ofertas privadas do Google Cloud
+
+A BlueXP digital wallet agora identifica assinaturas do Google Cloud Marketplace associadas a uma oferta privada e mostra a data de término e o prazo da assinatura.  Este aprimoramento permite que você verifique se aceitou com sucesso a oferta privada e valide seus termos.
+
+
+
+=== Detalhamento do uso de carregamento
+
+Agora você pode descobrir o que está sendo cobrado quando assina licenças baseadas em capacidade.  Os seguintes tipos de relatórios de uso estão disponíveis para download na BlueXP digital wallet.  Os relatórios de uso fornecem detalhes de capacidade de suas assinaturas e informam como você está sendo cobrado pelos recursos em suas assinaturas do Cloud Volumes ONTAP .  Os relatórios para download podem ser facilmente compartilhados com outras pessoas.
+
+* Uso do pacote Cloud Volumes ONTAP
+* Uso de alto nível
+* Uso de VMs de armazenamento
+* Uso de volumes
+
+
+Para obter mais informações sobre os relatórios de uso, consulte https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["Baixar relatórios de uso"] .
+
+
+
+== 3 de abril de 2023
+
+
+
+=== Notificações por e-mail
+
+As notificações por e-mail agora são suportadas pela BlueXP digital wallet.
+
+Se você configurar suas configurações de notificação, poderá receber notificações por e-mail quando suas licenças BYOL estiverem prestes a expirar (uma notificação de "Aviso") ou se já tiverem expirado (uma notificação de "Erro").
+
+https://docs.netapp.com/us-en/consosetup-admin/task-monitor-cm-operations.html["Aprenda a configurar notificações por e-mail"^]
+
+
+
+=== Capacidade licenciada para assinaturas de mercado
+
+Ao visualizar o licenciamento baseado em capacidade para o Cloud Volumes ONTAP, a BlueXP digital wallet agora mostra a capacidade licenciada que você comprou com ofertas privadas do marketplace.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Aprenda a visualizar a capacidade consumida na sua conta"] .
+
+
+
+== 6 de novembro de 2022
+
+
+
+=== Assinaturas e contratos anuais
+
+Suas assinaturas PAYGO e contratos anuais para BlueXP agora estão disponíveis para visualização e gerenciamento na BlueXP digital wallet.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-subscriptions.html["Aprenda a gerenciar suas assinaturas"] .
+
+
+
+== 18 de setembro de 2022
+
+
+
+=== Capacidade de E/S e WORM otimizada
+
+A BlueXP digital wallet agora mostra um resumo do pacote de licenciamento de E/S otimizado e a capacidade WORM provisionada para sistemas Cloud Volumes ONTAP em sua conta.
+
+Esses detalhes podem ajudar você a entender melhor como está sendo cobrado e se precisa comprar capacidade adicional.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Aprenda a visualizar a capacidade consumida na sua conta"] .
+
+
+
+== 31 Julho 2022
+
+
+
+=== Alterar método de cobrança
+
+Agora você pode alterar o método de cobrança para um sistema Cloud Volumes ONTAP que usa licenciamento baseado em capacidade.  Por exemplo, se você implantou um sistema Cloud Volumes ONTAP com o pacote Essentials, poderá alterá-lo para o pacote Professional caso suas necessidades comerciais mudem.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Aprenda como alterar os métodos de cobrança"] .
+
+
+
+== 3 Julho 2022
+
+
+
+=== Capacidade consumida
+
+Agora você verá a capacidade total consumida na sua conta e a capacidade consumida pelo pacote de licenciamento.  Isso pode ajudar você a entender como está sendo cobrado e se precisa comprar capacidade adicional.
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Uma captura de tela que mostra a página de licenças baseadas em capacidade.  A página fornece uma visão geral da capacidade consumida em sua conta e, em seguida, divide a capacidade consumida por pacote de licenciamento."]
+
+
+
+== 27 de fevereiro de 2022
+
+
+
+=== Licenças para clusters ONTAP locais
+
+Agora você pode visualizar um inventário dos seus clusters ONTAP locais, juntamente com as datas de expiração dos contratos de hardware e serviço.  Detalhes adicionais sobre os clusters também estão disponíveis.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Aprenda a gerenciar licenças para clusters ONTAP locais"] .
+
+
+
+== 2 de janeiro de 2022
+
+
+
+=== Os termos de licenciamento são atualizados automaticamente
+
+Se você alterar a capacidade ou o prazo de qualquer uma de suas licenças, os termos da licença agora serão atualizados automaticamente no .  Você não precisa atualizar manualmente a licença.
+
+A atualização automática de licença funciona com todos os tipos de licenças do Cloud Volumes ONTAP e todas as licenças para serviços de dados.

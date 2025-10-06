@@ -1,0 +1,15 @@
+= Capacidade de remover assinaturas
+:allow-uri-read: 
+
+
+
+
+=== Capacidade de remover assinaturas
+
+Agora você pode remover assinaturas da carteira digital caso tenha cancelado a assinatura delas.
+
+
+
+=== Exibir capacidade consumida para assinaturas do Marketplace
+
+Ao visualizar assinaturas PAYGO, agora você pode visualizar a capacidade consumida da assinatura.

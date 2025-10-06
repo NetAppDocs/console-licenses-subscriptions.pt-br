@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-azure.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
+summary: Gerencie seu Processo de Oferta Privada de ponta a ponta, geral e específico do Hyperscaler, e os guias de aceitação e ativação do NetApp Intelligent Services para AWS, Azure e Google Cloud. 
+---
+= Aceitar e ativar uma oferta privada do Azure para o NetApp Console
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Aceite e assine uma oferta privada do Marketplace para o NetApp Console no portal do Azure.  Configure as credenciais do Azure no Console.
+
+.Antes de começar
+* Trabalhe com as vendas da NetApp para criar uma oferta privada para sua ID de cobrança do Azure.
+* Você tem as permissões necessárias para aceitar uma oferta privada no Azure Marketplace:
++
+** Contrato Empresarial (EA): *Administrador empresarial*
+** Contrato de Cliente da Microsoft (MCA): *Proprietário da conta de cobrança* ou *Colaborador da conta de cobrança*
+
+
+* Você deve ter as permissões necessárias para comprar uma oferta privada no Azure Marketplace e criar uma assinatura:
++
+** *Proprietário da assinatura* ou *Colaborador da assinatura* da assinatura do Azure que está sendo usada
+
+
+* Um único indivíduo pode aceitar e comprar a oferta privada se tiver as permissões necessárias.
+
+
+
+
+== Aceite e assine a oferta privada no portal do Azure
+
+Uma assinatura do Azure pode ser associada a apenas uma assinatura do Marketplace. Se quiser usar duas assinaturas diferentes do Marketplace para cargas de trabalho na mesma assinatura do Azure, você deverá criar duas contas de Console separadas, uma para cada assinatura.  Se você tiver várias instâncias do Cloud Volumes ONTAP e quiser dividir o faturamento entre diferentes assinaturas, crie contas de console separadas para cada assinatura.
+
+[IMPORTANT]
+====
+Você deve concluir todas as etapas para aceitar e ativar sua oferta privada. Pular etapas pode resultar em problemas de ativação ou cobrança dupla.
+
+Se você notar discrepâncias nos termos, preços ou detalhes da oferta, ou se não tiver certeza de qual oferta aceitar, não aceite a oferta. Entre em contato com sua equipe de vendas da NetApp .
+
+Aceitar e ativar a oferta várias vezes resulta em cobrança dupla.
+
+====
+.Passos
+. Clique no link da oferta privada fornecido pela sua equipe de vendas da NetApp e entre. Se nenhum link estiver disponível, entre diretamente no portal do Azure.
+. Pesquise ou selecione *Marketplace* nos serviços do Azure.
+. Na página Marketplace, clique em *Gerenciamento de ofertas privadas* na seção *Gerenciamento*.
+. Clique em *Exibir + aceitar* para revisar os detalhes da oferta privada.
++
+.. Valide se os *detalhes do plano*, *prazo* e *preço* estão corretos.
+.. Se os detalhes estiverem incorretos, não assine. Entre em contato com a equipe de vendas da NetApp para corrigir a oferta.
+
+
+. Confirme e clique em *Aceitar oferta privada*.
+. Clique em *Comprar* para concluir o processo de compra.
++
+[NOTE]
+====
+Se o botão *Comprar* não estiver disponível, confirme se você tem as permissões de compra necessárias. Caso contrário, copie e compartilhe o link da janela de compra com alguém autorizado na sua organização.
+
+====
+. No fluxo de trabalho de compras:
++
+.. Selecione a *assinatura do Azure* a ser usada.
+.. Selecione o *Grupo de recursos* onde a assinatura será criada.
+.. Digite um *Nome* para a nova assinatura.
+
+
+. Opcionalmente, defina *Tags* (para produto, local do site, definição de carga de trabalho ou convenção de nomenclatura).
+. Clique em *Revisar e assinar*, valide os detalhes e depois clique em *Inscrever-se*.
+. Quando a assinatura for criada com sucesso, clique em *Configurar conta agora*. Isso redireciona você para o NetApp Console para concluir a configuração.
++
+[NOTE]
+====
+A automação do lado do Azure pode levar de 30 segundos a 5 minutos para ser concluída. Se a página foi fechada antes de você clicar em *Configurar conta agora*, retorne ao serviço no portal do Azure. A assinatura é exibida como *Configuração pendente*. Selecione-o para continuar a configuração.
+
+====
+. Você é redirecionado para https://console.netapp.com[] e solicitado a fazer login.
+. Após efetuar login, você será redirecionado para https://console.netapp.com/licenses/overview[] . Você será solicitado a:
++
+.. Insira um *Nome de exibição* para a assinatura do Marketplace.
+.. Selecione as *Contas* do Console que devem ter acesso a esta assinatura.
+.. Opcionalmente, você pode habilitar *Substituir assinatura existente* para substituir automaticamente uma assinatura existente do Marketplace em uma conta do Console.
++
+[NOTE]
+====
+*** Esta opção de substituição é limitada a uma única conta do Console.
+*** Para associar várias contas do Console à mesma assinatura do Marketplace, configure as contas adicionais manualmente.
+
+
+====
+
+
+. Clique em *Associar* e depois em *Concluído*.
+
+
+[IMPORTANT]
+====
+É necessário concluir a atribuição da assinatura no Console para ativar a compra e aplicar o preço com desconto.
+
+====
+
+
+== Configurar a assinatura com credenciais do Azure
+
+. No Console, acesse *Governança > Licenças e assinaturas* e selecione a aba *Assinaturas do Marketplace*.
+. Valide os detalhes da assinatura:
++
+.. Localize a assinatura do Marketplace que você criou.
+.. Expanda a linha para revisar os detalhes e confirmar se a assinatura está associada à sua conta do Console.
+
+
+. Clique no *menu de três pontos* ao lado da assinatura e selecione *Configurar*.
+. Selecione a *assinatura do Azure* apropriada e clique em *Configurar*.
+
+
+As cobranças do Marketplace para essa credencial do Azure agora são cobradas por meio da assinatura do Marketplace. Para contratos anuais, o uso desta credencial é contabilizado no contrato anual.
+
+[IMPORTANT]
+====
+Repita as etapas 1 a 4 para cada credencial do Azure na sua conta do Console que você deseja associar à assinatura.
+
+* Para associar credenciais de outra organização do Console, use o menu suspenso *Organização* para alternar as organizações e repita as etapas.
+* Para associar credenciais de outro agente, use o menu suspenso *Agente* para alternar e repetir as etapas.
+
+
+====

@@ -1,0 +1,29 @@
+= Novo painel de visão geral
+:allow-uri-read: 
+
+
+A BlueXP digital wallet foi redesenhada para facilitar o uso e agora oferece gerenciamento adicional de assinaturas e licenças.
+
+
+
+=== Novo painel de visão geral
+
+A página inicial da carteira digital tem um painel atualizado de suas licenças NetApp e assinaturas do Marketplace, com a capacidade de detalhar serviços específicos, tipos de licença e ações necessárias.
+
+
+
+=== Configurando assinaturas para credenciais
+
+A BlueXP digital wallet agora permite que você configure suas assinaturas para credenciais de provedores.  Normalmente, você faz isso quando assina pela primeira vez uma assinatura do Marketplace ou um contrato anual.  Anteriormente, a alteração das credenciais da assinatura só podia ser feita na página Credenciais.
+
+
+
+=== Associando assinaturas a organizações
+
+Agora você pode atualizar a organização à qual uma assinatura está associada diretamente da carteira digital.
+
+
+
+=== Gerenciando licenças do Cloud Volume ONTAP
+
+Agora você gerencia as licenças do Cloud Volumes ONTAP por meio da página inicial ou da aba *Licenças diretas*.  Use a aba *Assinaturas do Marketplace* para visualizar as informações da sua assinatura.

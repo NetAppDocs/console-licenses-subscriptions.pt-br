@@ -1,0 +1,79 @@
+---
+sidebar: sidebar 
+permalink: task-manage-on-prem-clusters.html 
+keywords: cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp, netapp console 
+summary: Veja os detalhes do contrato para cada um dos seus clusters ONTAP locais.  Se você ainda não descobriu um cluster no Console, também é possível descobri-lo. 
+---
+= Gerenciar licenças para ONTAP local
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode visualizar detalhes do contrato para cada um dos seus clusters ONTAP locais no Console.  Se você não descobriu um cluster, você também pode descobri-los.
+
+.Antes de começar
+O Console exibe detalhes sobre clusters ONTAP locais que você descobriu como sistemas ou que estão associados a uma conta do NetApp Support Site que você adicionou ao Console.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Aprenda como descobrir um cluster ONTAP local"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Aprenda a gerenciar credenciais do NSS associadas à sua organização ou conta do Console"^]
+
+
+
+
+== Ver informações do cluster e detalhes do contrato
+
+Visualize o status dos contratos de hardware e software dos seus clusters ONTAP locais para que você possa renová-los antes que expirem.
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *On-Premises ONTAP*.
++
+As datas de expiração do contrato de software e do contrato de hardware aparecem na linha de cada cluster.
+
++
+Se você for solicitado a inserir as credenciais da sua conta do NetApp Support Site (NSS) primeiro, selecione *Adicionar conta NSS*.  Depois de adicionar a conta, os clusters associados a essa conta NSS são exibidos.
+
+. Se o contrato estiver próximo da data de expiração ou já tiver expirado, você pode selecionar o ícone de bate-papo no canto inferior direito do Console para solicitar uma extensão do contrato.
+. Para ver mais detalhes, selecioneimage:button_down_caret.png["Um ícone de acento circunflexo"] para expandir as informações do cluster.
+
+
+
+
+== Descubra clusters
+
+Se você não descobriu um cluster ONTAP local como um sistema, você pode fazer isso no Console.  Depois de descoberto, um cluster fica disponível como um sistema para que você possa gerenciá-lo.
+
+.Antes de começar
+Você deve entender suas opções de descoberta e gerenciamento (descoberta usando um agente do Console ou descoberta direta sem um agente), bem como os requisitos de descoberta.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Saiba mais sobre opções e requisitos de descoberta"^] .
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *On-Premises ONTAP*.
++
+Seus clusters ONTAP são exibidos com um status informando se foram descobertos no Console.
+
++
+Se você for solicitado a inserir as credenciais da sua conta do NetApp Support Site (NSS) primeiro, selecione *Adicionar conta NSS*.  Depois de adicionar a conta, os clusters associados a essa conta NSS são exibidos.
+
+. Selecione *Descobrir* para o cluster que você deseja gerenciar por meio do Console.
+. Na página _Discover ONTAP Cluster_, insira a senha da conta de usuário administrador e selecione *Discover*.
+
+
+
+NOTE: O endereço IP de gerenciamento do cluster é preenchido com base nas informações da sua conta do site de suporte da NetApp .
+
+.Resultado
+O Console descobre o cluster e o adiciona como um sistema à página Sistemas.  O status do cluster muda para *Descoberto* na página _On-Premises ONTAP_.  Observe que o nome do sistema é o nome do cluster.
+
+Agora você pode começar a gerenciar o cluster.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["Aprenda a gerenciar clusters descobertos com um agente do Console"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["Aprenda a gerenciar clusters descobertos diretamente"^]
+

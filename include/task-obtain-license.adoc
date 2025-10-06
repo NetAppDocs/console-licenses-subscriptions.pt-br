@@ -1,0 +1,35 @@
+= 
+:allow-uri-read: 
+
+
+Você deve obter um arquivo de licença NetApp para fazer upload se o Console não tiver acesso à Internet (instalações em modo privado).
+
+Ao adquirir uma licença de um representante de vendas da NetApp , você recebe um e-mail contendo o número de série e os detalhes do licenciamento.  Use o número de série para obter o arquivo de licença caso as licenças não apareçam automaticamente no Console.
+
+.Passos
+. Encontre o ID da sua conta do Console:
++
+.. No canto superior direito do Console, selecioneimage:icon-settings-option.png["O ícone de configurações é exibido no canto superior direito do console web."] > *Gerenciamento de Identidade e Acesso*.
+.. Na página Organização, procure o ID da sua conta e copie-o.
++
+Se nenhuma ID de conta estiver listada e você tiver apenas uma ID de organização, copie os primeiros oito caracteres da ID da organização e anexe-os a *account-*
+
++
+Por exemplo, se esta for a ID da sua organização:
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+O ID da sua conta seria:
+
++
+conta-ea10e1c6
+
+
+
+. Sign in no https://mysupport.netapp.com["Site de suporte da NetApp"^] e selecione *Sistemas > Licenças de software*.
+. Digite o número de série da sua licença.
+. Na coluna *Chave de licença*, selecione *Obter arquivo de licença NetApp *.
+. Insira o ID da sua conta do Console (chamado de ID do locatário no site de suporte) e selecione *Enviar* para baixar o arquivo de licença.
+

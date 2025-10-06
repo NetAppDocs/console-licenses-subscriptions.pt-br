@@ -1,0 +1,150 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-aws.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
+summary: Gerencie seu Processo de Oferta Privada de ponta a ponta, geral e específico do Hyperscaler, e os guias de aceitação e ativação do NetApp Intelligent Services para AWS, Azure e Google Cloud. 
+---
+= Aceitar e configurar uma oferta privada do AWS Marketplace para o NetApp Console
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Aceite uma oferta privada do Marketplace para o NetApp Console no console da AWS e configure as credenciais da AWS no Console.
+
+.Antes de começar
+* Trabalhe com as vendas da NetApp para criar uma oferta privada e obter o link de ativação.
+* Certifique-se de ter as permissões necessárias do AWS Marketplace:
++
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-private-offers-subscribing.html["Visualizar e assinar uma oferta privada"]
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-iam-users-groups-policies.html["Validação de permissões do comprador"]
+
+
+
+
+
+
+== Aceite a oferta privada no console da AWS
+
+É necessário concluir a atribuição da assinatura no Console para ativar a compra e aplicar o preço com desconto.
+
+[NOTE]
+====
+Você deve concluir todas as etapas para ativar sua oferta privada. Pular etapas pode resultar em erros de cobrança. Aceitar e ativar a oferta várias vezes resulta em cobrança dupla.
+
+====
+.Passos
+. Clique no link de ativação da oferta privada da sua equipe de vendas da NetApp . O link deve ser semelhante ao seguinte:
+`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
++
+ If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
++
+** Usando políticas gerenciadas pela AWS: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* ou *AWSMarketplaceFullAccess*
+** Usando políticas de IAM personalizadas: `aws-marketplace:ListPrivateListings` e `aws-marketplace:ViewSubscriptions`
+
+
+. Você será redirecionado ao AWS Marketplace para visualizar a oferta privada.
++
+[NOTE]
+====
+Ofertas privadas são criadas com base em listagens públicas. Use o menu suspenso *Seleção de oferta* para alternar entre ofertas públicas e privadas.
+
+====
+. Revise os detalhes da oferta privada e confirme se eles correspondem ao seu acordo. Se estiverem incorretas, não aceite. Entre em contato com sua equipe de contas da NetApp .
++
+[NOTE]
+====
+Existem dois tipos de ofertas privadas:
+
+** *Uso sob demanda*
++
+*** Informações sobre preços
+*** Termos legais
+
+
+** *Contrato*
++
+*** Duração e datas
+*** Configurações de renovação
+*** Opções de contrato
+*** Preço total do contrato
+
+
+
+
+Para ofertas de contrato, insira o número de unidades acordadas. Para o Cloud Volumes ONTAP, certifique-se de selecionar a licença correta antes de assinar.
+
+====
+. Para aceitar a oferta privada, faça o seguinte:
++
+.. Para uso sob demanda, clique em *Inscrever-se*.
+.. Para ofertas de contrato, insira o número de unidades para cada serviço e clique em *Criar contrato*.
+
+
+. Após a aceitação, um banner confirma a inscrição e fornece instruções de registro.
+. Clique em *Configurar sua conta*. Isso redireciona para o NetApp Console para configurar a assinatura.
++
+[NOTE]
+====
+Se você aceitou a oferta, mas não concluiu o registro, retorne à página do produto. Para listagens de contratos, clique em *Exibir opções de compra* para exibir a oferta e, em seguida, selecione *Configurar sua conta*.
+
+====
+. Sign in em https://console.netapp.com[] com sua conta do Console.
+. Após efetuar login, navegue até https://console.netapp.com/licenses/overview[] . Você será solicitado a:
++
+.. Insira um *Nome de exibição* para a assinatura do Marketplace.
+.. Selecione o Console *Contas* com acesso à assinatura.
+.. [Opcional] Habilite *Substituir assinatura existente* para substituir uma assinatura existente para uma conta.
++
+[NOTE]
+====
+*** A substituição se aplica somente a uma conta do Console.
+*** Para associar várias contas à mesma assinatura, configure contas adicionais manualmente.
+*** Se as credenciais nunca foram associadas a uma assinatura, associe-as manualmente, conforme descrito na próxima seção.
+
+
+====
+
+
+. Clique em *Associar* e depois em *Concluído*.
+
+
+[IMPORTANT]
+====
+É necessário concluir a atribuição de assinatura no Console para aplicar o preço com desconto.
+
+====
+
+
+== Configurar a assinatura com credenciais da AWS
+
+. No Console, acesse *Governança > Licenças e assinaturas* e selecione a aba *Assinaturas do Marketplace*.
+. Localize a assinatura criada anteriormente. Expanda a linha para confirmar se ela está associada à sua conta do Console.
++
+[NOTE]
+====
+Devido às limitações do AWS Marketplace, alguns detalhes de ofertas privadas não são expostos fora do console da AWS. Se um campo exibir `N/A` , verifique as informações diretamente no console da AWS.
+
+====
+. Clique no menu de três pontos ao lado da assinatura e selecione *Configurar*.
+. Selecione a *credencial de conta AWS* apropriada e clique em *Configurar*.
+
+
+[NOTE]
+====
+As taxas do Marketplace para essas credenciais são cobradas usando a assinatura do Marketplace. Para contratos anuais, os custos são contabilizados no uso do contrato.
+
+====
+[IMPORTANT]
+====
+Repita as etapas 1 a 4 para cada credencial da AWS na sua conta do Console que você deseja associar à assinatura.
+
+* Para credenciais em outras organizações do Console, use o menu suspenso *Organização* e repita as etapas.
+* Para credenciais em outros agentes, use o menu suspenso *Agente* e repita as etapas.
+
+
+====

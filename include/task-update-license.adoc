@@ -1,0 +1,34 @@
+= 
+:allow-uri-read: 
+
+
+O Console notifica você quando o prazo da sua licença está próximo do vencimento ou quando sua capacidade licenciada se aproxima do limite.  Atualize sua licença antes que ela expire para evitar interrupções nos seus serviços de dados NetApp ou Cloud Volumes ONTAP.
+
+Após adquirir capacidade adicional da NetApp ou estender o prazo da sua licença, o Console atualiza automaticamente a licença quando ambas as condições são atendidas:
+
+* Sua conta do Console está associada a uma conta do Site de Suporte da NetApp
+* O Console tem acesso à internet
+
+
+Se sua conta do Console não estiver associada à sua conta NSS ou se o Console operar em modo privado sem acesso à Internet, você deverá atualizar manualmente a licença.
+
+Você pode atualizar manualmente uma licença usando um dos métodos:
+
+* Insira o número de série e a conta NSS associada
+* Carregue o arquivo de licença do NetApp (ou arquivos para um par de Cloud Volumes ONTAP HA)
+
+
+Ao adquirir uma licença de um representante de vendas da NetApp , você recebe um e-mail contendo o número de série e os detalhes do licenciamento.  Use este número de série para atualizar a licença.
+
+
+NOTE: Para inserir o número de série, primeiro https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["adicione sua conta do site de suporte da NetApp ao console"^] .  Esta conta NSS deve ser autorizada a acessar o número de série.
+
+.Passos
+. Entre em contato com seu representante da NetApp para adquirir uma nova licença.
++
+Após concluir o pagamento e registrar a licença no Site de Suporte da NetApp , o Console atualiza a licença automaticamente.  A página *Licenças diretas* reflete a alteração em 5 a 10 minutos.
+
+. Se o Console não puder atualizar a licença automaticamente (por exemplo, ao operar no modo privado), obtenha um arquivo de licença NetApp do suporte e carregue-o manualmente.<<obtain-license,Aprenda como obter um arquivo de licença.>>
+. Na aba *Licenças diretas*, selecioneimage:icon-action.png["Mais ícone"] para o número de série que você está atualizando e selecione *Atualizar licença*.
+. Na página *Atualizar licença*, carregue o arquivo de licença e selecione *Atualizar licença*.
+

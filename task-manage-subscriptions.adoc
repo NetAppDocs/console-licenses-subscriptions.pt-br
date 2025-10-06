@@ -1,0 +1,216 @@
+---
+sidebar: sidebar 
+permalink: task-manage-subscriptions.html 
+keywords: subscriptions, paygo subscriptions, contracts, annual contracts, capacity, bluexp, netapp console, marketplace 
+summary: 'Assine os serviços de dados da NetApp (incluindo o Cloud Volumes ONTAP) no mercado de um provedor de nuvem.' 
+---
+= Gerenciar assinaturas e contratos PAYGO
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Ao assinar os serviços de dados da NetApp (incluindo o Cloud Volumes ONTAP) no marketplace de um provedor de nuvem, você é redirecionado para o site do Console, onde salva sua assinatura e a associa à sua organização do Console.  Após a assinatura, cada assinatura fica disponível para gerenciamento no Console.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Aprenda como assinar os serviços de dados da NetApp (modo padrão)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Aprenda como assinar serviços de dados da NetApp (modo restrito)"^]
+
+
+
+NOTE: A página *Assinaturas do Marketplace* lista todas as licenças.  Para obter detalhes da licença de um serviço de dados específico, use os blocos de serviço de dados no painel *Visão geral*. link:task-homepage.html#overview-page["Saiba mais sobre o painel Visão geral"] .
+
+
+
+== Adicionar uma nova assinatura de mercado
+
+Você pode assinar um marketplace diretamente do Console.
+
+[role="tabbed-block"]
+====
+.AWS
+--
+O vídeo a seguir mostra as etapas para assinar o NetApp Console no AWS Marketplace:
+
+.Assine o NetApp Console no AWS Marketplace
+video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
+--
+.Azul
+--
+O vídeo a seguir mostra as etapas para assinar o NetApp Console no Azure Marketplace:
+
+.Assine o NetApp Console no Azure Marketplace
+video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
+--
+.Google Cloud
+--
+O vídeo a seguir mostra as etapas para assinar o NetApp Console no Google Cloud Marketplace:
+
+.Assine o NetApp Console no Google Cloud Marketplace
+video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
+--
+====
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Assinaturas do Marketplace*.
+. Acima da tabela *Assinaturas*, selecione *Adicionar assinatura*.
+. Na caixa de diálogo Adicionar assinatura, selecione um provedor de nuvem.
++
+.. Ao escolher uma assinatura da AWS, escolha se deseja um contrato anual ou uma assinatura PAYGO.
+
+
+. Selecione *Adicionar assinatura* para navegar até o mercado do provedor e concluir as etapas fornecidas.
+. Quando terminar no marketplace do provedor de nuvem, retorne ao Console para concluir o processo.
+
+
+
+
+== Ver suas assinaturas
+
+Você pode visualizar detalhes sobre cada assinatura PAYGO e contrato anual associado à sua organização ou conta do Console.
+
+No Google Cloud, você também pode identificar assinaturas de marketplace associadas a uma oferta privada, o que permite verificar se você aceitou a oferta com sucesso.
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Assinaturas do Marketplace*.
++
+Você verá apenas as assinaturas associadas à organização que está visualizando no momento.
+
+. Ao visualizar as informações da assinatura, você pode interagir com os detalhes da tabela da seguinte maneira:
++
+** Use a Pesquisa e Filtragem Avançadas para determinar quais assinaturas são exibidas na tabela.  Você pode pesquisar por nome de assinatura específico e filtrar por vários parâmetros de assinatura, como tipo e configuração.
+** Expanda uma linha para ver mais detalhes.
+** Selecioneimage:icon-column-selector.png["o ícone de mais no final do cabeçalho da tabela"] para escolher quais colunas aparecem na tabela.
++
+As colunas Prazo e Renovação automática não aparecem por padrão.  A coluna Renovação Automática exibe informações de renovação somente para contratos do Azure.
+
+
+
++
+Observe o seguinte sobre as informações da tabela:
+
++
+Data de início:: A data de início é quando você associou com sucesso a assinatura à sua conta e a cobrança começou.
+N / D:: Se você vir N/A na tabela, as informações não estão disponíveis no momento na API do provedor de nuvem.
+Prazo:: Se sua assinatura do Google Cloud estiver associada a uma oferta privada que foi modificada após a criação e aceitação, o termo mostrará N/D.  Nesse cenário, a resposta da API do Google Cloud Marketplace não inclui informações relacionadas ao termo.
+Contratos::
++
+--
+** Ao expandir os detalhes do contrato, o Console exibe as opções e unidades de contrato disponíveis (capacidade ou número de nós) para seu plano atual.
+** O Console identifica a data de término e se o contrato será renovado em breve, terminará em breve ou já terminou.
+** Se você tiver um contrato da AWS e alterar alguma opção de contrato após a data de início, valide suas opções de contrato no AWS Marketplace.
+** Se você tiver uma oferta privada do Google Cloud, as opções de contrato não estarão disponíveis.
+
+
+--
+
+
+
+
+
+
+== Renomear uma assinatura
+
+Você pode renomear uma assinatura para identificar melhor como sua organização a utiliza.
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Assinaturas do Marketplace*.
+. Selecione o menu de ação na linha que corresponde à assinatura que você deseja gerenciar e escolha *Renomear*.
+
+
+
+
+== Configurar uma assinatura com uma credencial de provedor
+
+As assinaturas geralmente são configuradas com a credencial do provedor que você criou quando se inscreveu.  Em alguns casos, pode ser necessário reconfigurar uma assinatura para usar uma credencial diferente para alterar como ela é cobrada.  A credencial que você associa a uma assinatura também deve estar associada a um agente.
+
+O formato da credencial depende do mercado que você está usando.  Por exemplo, as assinaturas do Azure Marketplace são associadas ao nome da assinatura do Azure, enquanto as assinaturas do AWS Marketplace usam o ID da conta da AWS.  Você pode ver uma lista de credenciais disponíveis na página Credenciais.
+
+A opção Configurar fica esmaecida se você cancelou uma assinatura.
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Assinaturas do Marketplace*.
+. Selecione o menu de ação na linha que corresponde à assinatura que você deseja configurar e escolha *Configurar*.
+. Na caixa de diálogo Configurar, escolha uma credencial para configurar com a assinatura.  Você só pode escolher entre as credenciais associadas ao agente selecionado no momento.  Se você não vir a credencial que deseja usar, tente alternar para uma visualização de agente diferente.
+
+
+
+
+== Associar uma assinatura a uma organização do Console
+
+Associar uma assinatura a uma organização garante que os membros dessa organização possam usar essa assinatura para cobrança.
+
+Você pode limitar o uso da assinatura a uma organização específica ou compartilhar a assinatura entre várias organizações.
+
+Você deve ter a função de administrador da organização para associar uma assinatura a uma organização.
+
+
+NOTE: O Console oferece suporte ao Gerenciamento de Identidade e Acesso (IAM) no modo padrão, que usa organizações para gerenciar usuários e recursos.  Se estiver usando o Console no modo privado ou restrito, use uma _conta_ do Console para gerenciar usuários e recursos, incluindo assinaturas.
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Assinaturas do Marketplace*.
+. Na linha da assinatura que você deseja associar, abra o menu de ações e selecione *Associar*.
+. Na caixa de diálogo *Associar a assinatura*, selecione uma ou mais organizações para associar à assinatura.
+. Selecione *Associar*.
+
+
+
+
+== Exibir credenciais associadas a uma assinatura
+
+Você pode visualizar as credenciais de uma assinatura específica na página *Assinaturas do Marketplace*.  Isso permite que você verifique como a assinatura é cobrada.  Como as credenciais estão vinculadas ao agente que você está usando, você deve selecionar o agente associado à assinatura que deseja visualizar.
+
+
+NOTE: Use o menu suspenso Agente na barra de navegação superior para alternar agentes, se necessário.
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Assinaturas do Marketplace*.
+. Na linha que contém a assinatura cujas credenciais você deseja visualizar, selecione Exibir.  Se várias credenciais estiverem associadas a uma assinatura, nenhuma credencial poderá ser exibida e você será direcionado a selecionar um agente diferente.
+
+
+
+
+=== Desconfigurar uma assinatura
+
+Antes de remover uma assinatura, você deve desconfigurá-la.  Isso limpa todos os dados e configurações associados.
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Assinaturas do Marketplace*.
+. Na linha da assinatura que você deseja desconfigurar, clique no menu de ação e selecione *Desconfigurar*.
+. Siga as instruções para remover ou redefinir quaisquer configurações ou dados associados.
+. Aguarde até que o status seja atualizado para *Não configurado*.
+
+
+
+
+=== Remover uma assinatura
+
+Quando você cancela a assinatura de um provedor de nuvem (AWS, Google Cloud ou Azure), o Console mostra o status da assinatura como *Cancelado*.
+
+Você pode remover assinaturas *Canceladas* do Console para que elas não apareçam mais.
+
+[NOTE]
+====
+Você só pode remover assinaturas que estejam *Canceladas* e *Não configuradas*.  Todas as configurações, dados e configurações relacionadas devem ser limpos ou redefinidos antes da remoção.
+
+Se a assinatura ainda estiver configurada, a opção *Remover* não será exibida.  Para disponibilizar a opção, desconfigure a assinatura limpando todas as configurações, serviços ou dados associados.
+
+====
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Assinaturas do Marketplace*.
+. Na linha da assinatura que você deseja remover, abra o menu de ação e selecione *Remover*.
++
+Você só pode remover assinaturas com status *Cancelado* e *Não configurado*.
+
+. Na caixa de diálogo *Remover assinatura*, confirme que deseja remover a assinatura.
+

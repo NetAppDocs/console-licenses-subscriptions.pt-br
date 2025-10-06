@@ -1,0 +1,76 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, bluexp, netapp console, cloud volumes ontap license, cloud volumes ontap 
+summary: Obtenha uma visão geral de todas as assinaturas e licenças da sua organização no painel de visão geral no Console. 
+---
+= Use a visão geral do painel
+:allow-uri-read: 
+
+
+
+
+== Use a visão geral do painel
+
+[role="lead"]
+Use o painel *Visão geral* no Console para monitorar a integridade de suas licenças e assinaturas para garantir que você possa gerenciar custos e manter o serviço conforme as assinaturas atingem datas de expiração ou limites de capacidade.
+
+Você pode visualizar informações específicas de licença e assinatura sobre cada um dos seus serviços de dados (incluindo o Cloud Volumes ONTAP) e detalhar cada um deles.
+
+Você também será alertado sobre limites de capacidade ou expirações futuras e será solicitado a tomar medidas.
+
+
+
+=== Ver detalhes sobre um serviço de dados específico
+
+O painel *Visão geral* oferece a capacidade de visualizar detalhes sobre os seguintes serviços de dados:
+
+* Cloud Volumes ONTAP
+* Recuperação de desastres
+* Resiliência ao Ransomware
+* Backup e Recuperação
+* Camadas de nuvem
+
+
+Por exemplo, os administradores encarregados de gerenciar os recursos do Cloud Volumes ONTAP podem visualizar a capacidade atual de cada licença ou assinatura, o que lhes dá uma visão focada dos recursos dentro de sua área de atuação.
+
+
+NOTE: Embora você possa atualizar e remover licenças do painel, não é possível adicionar uma nova licença ou assinatura.
+
+link:task-manage-data-services-licenses.html["Saiba mais sobre o gerenciamento de licenças"^] . link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas"^] .
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Visão geral*.
+. Selecione *Exibir* para o respectivo serviço de dados (incluindo Cloud Volumes ONTAP) para visualizar detalhes e gerenciar licenças e assinaturas.
++
+Cada bloco fornece uma visão geral gráfica da capacidade.  Você pode visualizar a página de detalhes para ver e gerenciar métodos de pagamento para essa capacidade.
+
+. Selecione a aba *Licenças* ou *Assinaturas*.
+. Filtre a tabela selecionando um filtro de coluna e um valor para filtrar.  Por exemplo, na aba *Assinaturas*, você pode filtrar a coluna Tipo por Contrato Anual ou Assinatura.
+. Personalize as colunas mostradas na tabela.  Você pode adicionar e remover colunas da tabela selecionando o ícone *Coluna* para indicar quais colunas você deseja mostrar ou ocultar.
+. Expanda qualquer linha para ver detalhes sobre o que a assinatura ou licença inclui, capacidade adquirida e termos.
+. Use o menu de ações para gerenciar uma licença ou assinatura específica, como atualizar uma licença ou associar uma assinatura a uma organização diferente.
++
+Você não pode adicionar novas licenças ou assinaturas na página *Visão geral* para um serviço específico.  Você só pode adicionar licenças ou assinaturas na aba *Licenças diretas* ou na aba *Assinaturas do Marketplace*, respectivamente.
+
++
+link:task-data-services-licenses.html["Saiba mais sobre como gerenciar licenças."] link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas."]
+
+
+
+
+
+=== Resolver problemas de licença ou assinatura
+
+Você pode visualizar problemas de licença e assinatura que precisam ser resolvidos.  Os problemas incluem licenças e assinaturas que estão expirando ou atingindo a capacidade.
+
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. Selecione *Visão geral*.
+. Selecione *Resolver* no bloco *Requer ação* para visualizar os problemas que precisam ser ajustados.  Se *Resolver* não for exibido, não há problemas que exijam ação neste momento.
+. Na página *Requer ação*, selecione a guia *Licenças* ou a guia *Assinaturas*.
+. Use o menu de ações para resolver o problema.
++
+link:task-manage-data-services-licenses.html["Saiba mais sobre o gerenciamento de licenças"^] . link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas"^] .
+
+
