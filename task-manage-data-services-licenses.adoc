@@ -21,30 +21,113 @@ NOTE: A página *Licenças diretas* lista todas as licenças.  Se você quiser d
 
 As instruções nesta página fornecem informações que se aplicam a cada serviço.  Para obter informações mais específicas sobre o licenciamento desses serviços, consulte as seguintes páginas:
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["Configurar licenciamento para BlueXP backup and recovery"^]
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Configurar licenciamento para BlueXP disaster recovery"^]
-* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["Configurar licenciamento para BlueXP ransomware protection"^]
-* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["Configurar licenciamento para BlueXP tiering"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Configurar licenciamento para o Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["Configurar licenciamento para NetApp Backup and Recovery"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["Configurar licenciamento para recuperação de desastres da NetApp"^]
+* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["Configurar licenciamento para NetApp Ransomware Resilience"^]
+* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["Configurar licenciamento para NetApp Cloud Tiering"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["Configurar licenciamento para o Cloud Volumes ONTAP"^]
 
 
 
 
 == Obter um arquivo de licença
 
-Diretiva não resolvida em <stdin> - include::_include/task-obtain-license.adoc[]
+Você deve obter um arquivo de licença NetApp para fazer upload se o Console não tiver acesso à Internet (instalações em modo privado).
+
+Ao adquirir uma licença de um representante de vendas da NetApp , você recebe um e-mail contendo o número de série e os detalhes do licenciamento.  Use o número de série para obter o arquivo de licença caso as licenças não apareçam automaticamente no Console.
+
+.Passos
+. Encontre o ID da sua conta do Console:
++
+.. No canto superior direito do Console, selecioneimage:icon-settings-option.png["O ícone de configurações é exibido no canto superior direito do console web."] > *Gerenciamento de Identidade e Acesso*.
+.. Na página Organização, procure o ID da sua conta e copie-o.
++
+Se nenhuma ID de conta estiver listada e você tiver apenas uma ID de organização, copie os primeiros oito caracteres da ID da organização e anexe-os a *account-*
+
++
+Por exemplo, se esta for a ID da sua organização:
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+O ID da sua conta seria:
+
++
+conta-ea10e1c6
+
+
+
+. Sign in no https://mysupport.netapp.com["Site de suporte da NetApp"^] e selecione *Sistemas > Licenças de software*.
+. Digite o número de série da sua licença.
+. Na coluna *Chave de licença*, selecione *Obter arquivo de licença NetApp *.
+. Insira o ID da sua conta do Console (chamado de ID do locatário no site de suporte) e selecione *Enviar* para baixar o arquivo de licença.
+
 
 
 
 == Adicionar uma licença
 
-Diretiva não resolvida em <stdin> - include::_include/task-add-license.adoc[]
+As informações da licença são exibidas automaticamente na seção **Licenças e assinaturas** quando a conta do NetApp Console associada à licença também é uma conta do Site de Suporte da NetApp e tem acesso à Internet.  Se você usou uma conta do Console que não está associada à sua conta NSS, será necessário adicionar uma licença manualmente.
+
+Você pode adicionar a licença no Console inserindo o número de série e a conta NSS associada ou carregando o arquivo de licença NetApp (NLF).  Você deve obter um arquivo de licença NetApp para fazer upload se o Console não tiver acesso à Internet (instalações em modo privado).
+
+Após você adquirir uma licença do seu representante de vendas da NetApp , a NetApp lhe enviará um e-mail com o número de série e detalhes adicionais do licenciamento.  Você precisará desse número de série para adicionar ou atualizar a respectiva licença no Console.
+
+
+NOTE: Para inserir o número de série, primeiro https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["adicione sua conta do site de suporte da NetApp ao console"^] .  Esta é a conta do site de suporte da NetApp que está autorizada a acessar o número de série.
+
+.Passos
+. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas* e, em seguida, selecione a guia *Licenças diretas*.
+. Selecione *Adicionar licença*.
+. Na caixa de diálogo *Adicionar licença*, insira as informações da licença e selecione *Adicionar licença*:
++
+** Se você tiver o número de série e souber sua conta NSS, selecione *Inserir número de série* e insira essas informações.
++
+Se você inseriu um número de série, também precisará selecionar a conta do site de suporte da NetApp que está autorizada a acessar o número de série.
+
++
+Se a sua conta do site de suporte da NetApp não estiver disponível na lista suspensa, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["adicione a conta NSS ao Console"^]
+
+** Se você tiver o arquivo de licença (necessário ao usar o NetApp Console no modo privado), selecione a opção *Carregar arquivo de licença* e siga as instruções para anexar o arquivo.
+
+
+
 
 
 
 == Atualizar uma licença
 
-Diretiva não resolvida em <stdin> - include::_include/task-update-license.adoc[]
+O Console notifica você quando o prazo da sua licença está próximo do vencimento ou quando sua capacidade licenciada se aproxima do limite.  Atualize sua licença antes que ela expire para evitar interrupções nos seus serviços de dados NetApp ou Cloud Volumes ONTAP.
+
+Após adquirir capacidade adicional da NetApp ou estender o prazo da sua licença, o Console atualiza automaticamente a licença quando ambas as condições são atendidas:
+
+* Sua conta do Console está associada a uma conta do Site de Suporte da NetApp
+* O Console tem acesso à internet
+
+
+Se sua conta do Console não estiver associada à sua conta NSS ou se o Console operar em modo privado sem acesso à Internet, você deverá atualizar manualmente a licença.
+
+Você pode atualizar manualmente uma licença usando um dos métodos:
+
+* Insira o número de série e a conta NSS associada
+* Carregue o arquivo de licença do NetApp (ou arquivos para um par de Cloud Volumes ONTAP HA)
+
+
+Ao adquirir uma licença de um representante de vendas da NetApp , você recebe um e-mail contendo o número de série e os detalhes do licenciamento.  Use este número de série para atualizar a licença.
+
+
+NOTE: Para inserir o número de série, primeiro https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["adicione sua conta do site de suporte da NetApp ao console"^] .  Esta conta NSS deve ser autorizada a acessar o número de série.
+
+.Passos
+. Entre em contato com seu representante da NetApp para adquirir uma nova licença.
++
+Após concluir o pagamento e registrar a licença no Site de Suporte da NetApp , o Console atualiza a licença automaticamente.  A página *Licenças diretas* reflete a alteração em 5 a 10 minutos.
+
+. Se o Console não puder atualizar a licença automaticamente (por exemplo, ao operar no modo privado), obtenha um arquivo de licença NetApp do suporte e carregue-o manualmente.<<obtain-license,Aprenda como obter um arquivo de licença.>>
+. Na aba *Licenças diretas*, selecioneimage:icon-action.png["Mais ícone"] para o número de série que você está atualizando e selecione *Atualizar licença*.
+. Na página *Atualizar licença*, carregue o arquivo de licença e selecione *Atualizar licença*.
+
 
 
 
