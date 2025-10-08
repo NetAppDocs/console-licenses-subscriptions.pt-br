@@ -12,7 +12,7 @@ A BlueXP digital wallet agora identifica assinaturas do Google Cloud Marketplace
 
 === Detalhamento do uso de carregamento
 
-Agora você pode descobrir o que está sendo cobrado quando assina licenças baseadas em capacidade.  Os seguintes tipos de relatórios de uso estão disponíveis para download na BlueXP digital wallet.  Os relatórios de uso fornecem detalhes de capacidade de suas assinaturas e informam como você está sendo cobrado pelos recursos em suas assinaturas do Cloud Volumes ONTAP .  Os relatórios para download podem ser facilmente compartilhados com outras pessoas.
+Agora você pode descobrir o que está sendo cobrado quando assina licenças baseadas em capacidade. Os seguintes tipos de relatórios de uso estão disponíveis para download na BlueXP digital wallet. Os relatórios de uso fornecem detalhes de capacidade de suas assinaturas e informam como você está sendo cobrado pelos recursos em suas assinaturas do Cloud Volumes ONTAP . Os relatórios para download podem ser facilmente compartilhados com outras pessoas.
 
 * Uso do pacote Cloud Volumes ONTAP
 * Uso de alto nível

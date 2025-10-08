@@ -54,7 +54,7 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 --
 ====
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Acima da tabela *Assinaturas*, selecione *Adicionar assinatura*.
 . Na caixa de diálogo Adicionar assinatura, selecione um provedor de nuvem.
@@ -75,7 +75,7 @@ Você pode visualizar detalhes sobre cada assinatura PAYGO e contrato anual asso
 No Google Cloud, você também pode identificar assinaturas de marketplace associadas a uma oferta privada, o que permite verificar se você aceitou a oferta com sucesso.
 
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 +
 Você verá apenas as assinaturas associadas à organização que está visualizando no momento.
@@ -86,7 +86,7 @@ Você verá apenas as assinaturas associadas à organização que está visualiz
 ** Expanda uma linha para ver mais detalhes.
 ** Selecioneimage:icon-column-selector.png["o ícone de mais no final do cabeçalho da tabela"] para escolher quais colunas aparecem na tabela.
 +
-As colunas Prazo e Renovação automática não aparecem por padrão.  A coluna Renovação Automática exibe informações de renovação somente para contratos do Azure.
+As colunas Prazo e Renovação automática não aparecem por padrão. A coluna Renovação Automática exibe informações de renovação somente para contratos do Azure.
 
 
 
@@ -118,7 +118,7 @@ Contratos::
 Você pode renomear uma assinatura para identificar melhor como sua organização a utiliza.
 
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Selecione o menu de ação na linha que corresponde à assinatura que você deseja gerenciar e escolha *Renomear*.
 
@@ -134,7 +134,7 @@ O formato da credencial depende do mercado que você está usando.  Por exemplo,
 A opção Configurar fica esmaecida se você cancelou uma assinatura.
 
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Selecione o menu de ação na linha que corresponde à assinatura que você deseja configurar e escolha *Configurar*.
 . Na caixa de diálogo Configurar, escolha uma credencial para configurar com a assinatura.  Você só pode escolher entre as credenciais associadas ao agente selecionado no momento.  Se você não vir a credencial que deseja usar, tente alternar para uma visualização de agente diferente.
@@ -154,7 +154,7 @@ Você deve ter a função de administrador da organização para associar uma as
 NOTE: O Console oferece suporte ao Gerenciamento de Identidade e Acesso (IAM) no modo padrão, que usa organizações para gerenciar usuários e recursos.  Se estiver usando o Console no modo privado ou restrito, use uma _conta_ do Console para gerenciar usuários e recursos, incluindo assinaturas.
 
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Na linha da assinatura que você deseja associar, abra o menu de ações e selecione *Associar*.
 . Na caixa de diálogo *Associar a assinatura*, selecione uma ou mais organizações para associar à assinatura.
@@ -171,7 +171,7 @@ Você pode visualizar as credenciais de uma assinatura específica na página *A
 NOTE: Use o menu suspenso Agente na barra de navegação superior para alternar agentes, se necessário.
 
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Na linha que contém a assinatura cujas credenciais você deseja visualizar, selecione Exibir.  Se várias credenciais estiverem associadas a uma assinatura, nenhuma credencial poderá ser exibida e você será direcionado a selecionar um agente diferente.
 
@@ -183,7 +183,7 @@ NOTE: Use o menu suspenso Agente na barra de navegação superior para alternar 
 Antes de remover uma assinatura, você deve desconfigurá-la.  Isso limpa todos os dados e configurações associados.
 
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Na linha da assinatura que você deseja desconfigurar, clique no menu de ação e selecione *Desconfigurar*.
 . Siga as instruções para remover ou redefinir quaisquer configurações ou dados associados.
@@ -206,7 +206,7 @@ Se a assinatura ainda estiver configurada, a opção *Remover* não será exibid
 
 ====
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Na linha da assinatura que você deseja remover, abra o menu de ação e selecione *Remover*.
 +

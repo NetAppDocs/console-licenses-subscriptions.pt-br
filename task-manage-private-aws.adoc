@@ -122,7 +122,7 @@ Se você aceitou a oferta, mas não concluiu o registro, retorne à página do p
 
 == Configurar a assinatura com credenciais da AWS
 
-. No Console, acesse *Governança > Licenças e assinaturas* e selecione a aba *Assinaturas do Marketplace*.
+. No Console, acesse *Governança > Licenses and subscriptions* e selecione a aba *Assinaturas do Marketplace*.
 . Localize a assinatura criada anteriormente. Expanda a linha para confirmar se ela está associada à sua conta do Console.
 +
 [NOTE]

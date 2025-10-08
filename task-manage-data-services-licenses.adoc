@@ -22,7 +22,7 @@ NOTE: A página *Licenças diretas* lista todas as licenças.  Se você quiser d
 As instruções nesta página fornecem informações que se aplicam a cada serviço.  Para obter informações mais específicas sobre o licenciamento desses serviços, consulte as seguintes páginas:
 
 * https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["Configurar licenciamento para NetApp Backup and Recovery"^]
-* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["Configurar licenciamento para recuperação de desastres da NetApp"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["Configurar licenciamento para NetApp Disaster Recovery"^]
 * https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["Configurar licenciamento para NetApp Ransomware Resilience"^]
 * https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["Configurar licenciamento para NetApp Cloud Tiering"^]
 * https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["Configurar licenciamento para o Cloud Volumes ONTAP"^]
@@ -68,7 +68,7 @@ conta-ea10e1c6
 
 == Adicionar uma licença
 
-As informações da licença são exibidas automaticamente na seção **Licenças e assinaturas** quando a conta do NetApp Console associada à licença também é uma conta do Site de Suporte da NetApp e tem acesso à Internet.  Se você usou uma conta do Console que não está associada à sua conta NSS, será necessário adicionar uma licença manualmente.
+As informações da licença são exibidas automaticamente na seção ** Licenses and subscriptions** quando a conta do NetApp Console associada à licença também é uma conta do Site de suporte da NetApp e tem acesso à Internet.  Se você usou uma conta do Console que não está associada à sua conta NSS, será necessário adicionar uma licença manualmente.
 
 Você pode adicionar a licença no Console inserindo o número de série e a conta NSS associada ou carregando o arquivo de licença NetApp (NLF).  Você deve obter um arquivo de licença NetApp para fazer upload se o Console não tiver acesso à Internet (instalações em modo privado).
 
@@ -78,7 +78,7 @@ Após você adquirir uma licença do seu representante de vendas da NetApp , a N
 NOTE: Para inserir o número de série, primeiro https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["adicione sua conta do site de suporte da NetApp ao console"^] .  Esta é a conta do site de suporte da NetApp que está autorizada a acessar o número de série.
 
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas* e, em seguida, selecione a guia *Licenças diretas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions* e, em seguida, selecione a guia *Licenças diretas*.
 . Selecione *Adicionar licença*.
 . Na caixa de diálogo *Adicionar licença*, insira as informações da licença e selecione *Adicionar licença*:
 +

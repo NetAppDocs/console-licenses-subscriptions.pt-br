@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: Documentação de licenças e assinaturas
+  title: Documentação de Licenses and subscriptions
   summary: Gerencie e monitore suas licenças e assinaturas no NetApp Console.
   keywords: netapp console, bluexp, documentation, licenses, subscriptions
   lead: Gerencie e monitore suas licenças e assinaturas no NetApp Console.
@@ -23,9 +23,9 @@ indexpage:
       url: task-manage-keystone.html
   - title: Blogs e comunidade
     links:
-    - title: Console NetApp
+    - title: NetApp Console
       url: https://wwww.netapp.com/console
-    - title: Serviços de dados NetApp
+    - title: NetApp Data Services
       url: https://wwww.netapp.com/data-services/
     - title: Comunidade NetApp
       url: https://community.netapp.com/

@@ -40,7 +40,7 @@ NOTE: Embora você possa atualizar e remover licenças do painel, não é possí
 link:task-manage-data-services-licenses.html["Saiba mais sobre o gerenciamento de licenças"^] . link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas"^] .
 
 .Passos
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Visão geral*.
 . Selecione *Exibir* para o respectivo serviço de dados (incluindo Cloud Volumes ONTAP) para visualizar detalhes e gerenciar licenças e assinaturas.
 +
@@ -65,7 +65,7 @@ link:task-data-services-licenses.html["Saiba mais sobre como gerenciar licenças
 
 Você pode visualizar problemas de licença e assinatura que precisam ser resolvidos.  Os problemas incluem licenças e assinaturas que estão expirando ou atingindo a capacidade.
 
-. No menu do NetApp Console, selecione *Governança > Licenças e assinaturas*.
+. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Visão geral*.
 . Selecione *Resolver* no bloco *Requer ação* para visualizar os problemas que precisam ser ajustados.  Se *Resolver* não for exibido, não há problemas que exijam ação neste momento.
 . Na página *Requer ação*, selecione a guia *Licenças* ou a guia *Assinaturas*.

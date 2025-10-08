@@ -109,7 +109,7 @@ A automação do lado do Azure pode levar de 30 segundos a 5 minutos para ser co
 
 == Configurar a assinatura com credenciais do Azure
 
-. No Console, acesse *Governança > Licenças e assinaturas* e selecione a aba *Assinaturas do Marketplace*.
+. No Console, acesse *Governança > Licenses and subscriptions* e selecione a aba *Assinaturas do Marketplace*.
 . Valide os detalhes da assinatura:
 +
 .. Localize a assinatura do Marketplace que você criou.

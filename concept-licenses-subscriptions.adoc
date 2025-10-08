@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-licenses-subscriptions.html 
 keywords: license, licensing, licenses, subscriptions, 
-summary: As licenças e assinaturas permitem que você gerencie e monitore licenças do NetApp Console, assinaturas do NetApp Marketplace e NetApp Keystone. 
+summary: As licenças e assinaturas permitem que você gerencie e monitore licenças do NetApp Console , assinaturas do NetApp Marketplace e NetApp Keystone. 
 ---
 = Saiba mais sobre licenças e assinaturas
 :hardbreaks:

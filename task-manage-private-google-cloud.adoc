@@ -50,7 +50,7 @@ Se você já possui uma assinatura PAYGO ativa ou uma oferta privada alterada, v
 . Você será redirecionado para o Google Cloud Marketplace, onde poderá revisar os detalhes da oferta:
 +
 .. **Conta de cobrança**
-.. **Produto**: Console NetApp
+.. **Produto**: NetApp Console
 .. **Detalhes da oferta**
 .. **Preços**
 +
@@ -94,7 +94,7 @@ Revise cuidadosamente os detalhes, o prazo e o preço do plano. Se algo estiver 
 
 == Associe a assinatura às credenciais do Google Cloud
 
-. No Console, acesse **Governança > Licenças e assinaturas** e selecione a aba **Assinaturas do Marketplace**.
+. No Console, acesse **Governança > Licenses and subscriptions** e selecione a aba **Assinaturas do Marketplace**.
 . Valide os detalhes da assinatura:
 +
 .. Localize a assinatura criada no processo de aceitação.

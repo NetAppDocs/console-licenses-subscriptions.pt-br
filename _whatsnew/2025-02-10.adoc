@@ -8,7 +8,7 @@ A BlueXP digital wallet foi redesenhada para facilitar o uso e agora oferece ger
 
 === Novo painel de visão geral
 
-A página inicial da carteira digital tem um painel atualizado de suas licenças NetApp e assinaturas do Marketplace, com a capacidade de detalhar serviços específicos, tipos de licença e ações necessárias.
+A página inicial da carteira digital tem um painel atualizado de suas licenças da NetApp e assinaturas do Marketplace, com a capacidade de detalhar serviços específicos, tipos de licença e ações necessárias.
 
 
 
