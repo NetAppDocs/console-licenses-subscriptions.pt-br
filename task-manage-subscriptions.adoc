@@ -29,30 +29,6 @@ NOTE: A página *Assinaturas do Marketplace* lista todas as licenças.  Para obt
 
 Você pode assinar um marketplace diretamente do Console.
 
-[role="tabbed-block"]
-====
-.AWS
---
-O vídeo a seguir mostra as etapas para assinar o NetApp Console no AWS Marketplace:
-
-.Assine o NetApp Console no AWS Marketplace
-video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
---
-.Azul
---
-O vídeo a seguir mostra as etapas para assinar o NetApp Console no Azure Marketplace:
-
-.Assine o NetApp Console no Azure Marketplace
-video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
---
-.Google Cloud
---
-O vídeo a seguir mostra as etapas para assinar o NetApp Console no Google Cloud Marketplace:
-
-.Assine o NetApp Console no Google Cloud Marketplace
-video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
---
-====
 .Passos
 . No menu do NetApp Console , selecione *Governança > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
