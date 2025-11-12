@@ -1,0 +1,40 @@
+= 
+:allow-uri-read: 
+
+
+--
+barra lateral: link permanente da barra lateral: concept-billing-preferences-terms.html palavras-chave: licença, licenciamento, licenças, assinaturas, resumo: "As licenças e assinaturas permitem gerenciar e monitorar as licenças do NetApp Console , as assinaturas do NetApp Marketplace e o NetApp Keystone." ---
+
+= Termos e definições :hardbreaks: :nofooter: :icons: fonte :linkattrs: :imagesdir: ./media/
+
+[role="lead"]
+As preferências de faturamento controlam como o NetApp Console lida com pagamentos, faturas e renovações de suas licenças e assinaturas.  Você define as preferências em um dos dois níveis:
+
+* *Global* — aplica-se a licenças diretas, assinaturas do marketplace e assinaturas Keystone .
+* *Por assinatura* — aplica-se somente a um mercado específico ou contrato de licença direta.
+
+
+A fonte de faturamento pode ser a seguinte:
+
+* *Assinaturas do Marketplace* — A cobrança é feita através do AWS Marketplace, Azure Marketplace ou Google Cloud Marketplace.  Você pode escolher a conta de faturamento, a região e as opções de renovação oferecidas pelo marketplace de nuvem.
+* *Licenças diretas* — A cobrança é feita através da NetApp.  Você gerencia chaves de licença, contatos de faturamento e renovação automática no NetApp Console.
+* *Assinaturas Keystone * — A cobrança é feita através do seu contrato com a Keystone .  Você gerencia os destinatários das faturas e as etiquetas do centro de custos no NetApp Console.
+
+
+== Permissões Você precisa da função *Administrador da Conta* ou *Administrador de Faturamento* para alterar as preferências de faturamento.  Os operadores podem visualizar as preferências, mas não podem modificá-las.
+
+== Definir preferências de faturamento
+
+As preferências de faturamento permitem: - impor uma única lista de contatos de faturamento para todos os serviços, - alinhar o uso aos centros de custo, - gerenciar notificações de renovação automática e expiração, - garantir que os novos sistemas Cloud Volumes ONTAP (CVO) herdem a conta de faturamento correta.
+
+= Campos de faturamento :page-role: referência
+
+== Campos do Marketplace * *Fornecedor do Marketplace* — AWS, Azure ou Google Cloud.  * *Conta de faturamento / ID da assinatura* — A conta de faturamento na nuvem para cobrança.  * *Duração do contrato* — Duração do contrato e condições de renovação.
+
+= Opções e definições de faturamento :page-role: referência
+
+== Termos e opções * ** Licenças NetApp em primeiro lugar** — Cobrança referente a licenças NetApp ativas.  Uso adicional passa para o mercado.  * **Somente assinaturas do Marketplace** — Todo o uso é cobrado por meio de contratos do Marketplace.  * **PAYGO (Pague Conforme o Uso)** — Assinatura flexível cobrada de acordo com o uso real.  * **Contrato anual** — Assinatura de prazo fixo para o marketplace.  * **Renovação automática** — Renova o contrato automaticamente ao expirar.  * **Configuração CVO personalizada** — Modo avançado para mapear várias assinaturas por hiperescalador.  * **Licença direta** — Licença gerenciada pela NetApp usada antes da capacidade do marketplace.  * **Hyperscaler** — Provedor de nuvem AWS, Azure ou Google Cloud.  * **Caixa de diálogo de confirmação de alterações** — Aparece antes de aplicar as atualizações para evitar alterações acidentais na fatura.
+
+== Caminhos de configuração típicos | Cenário | Opção de faturamento recomendada | |-----------|-----------------------------| | Usando capacidade NetApp adquirida | Licenças NetApp primeiro | | Usando apenas contratos do marketplace | Apenas assinaturas do marketplace | | Faturando vários projetos em um único provedor de nuvem | Habilitar configuração CVO personalizada | | Revertendo para o faturamento padrão | Desabilitar configuração CVO personalizada |
+
+--

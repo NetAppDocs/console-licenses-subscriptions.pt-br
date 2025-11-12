@@ -1,0 +1,117 @@
+---
+sidebar: sidebar 
+permalink: task-manage-billing-preferences.html 
+keywords: billing, configure, license, licensing, licenses, subscriptions, marketplace, keystone, cvo 
+summary: Configure as preferências de faturamento no NetApp Console para controlar como as licenças, assinaturas do marketplace e contratos do Keystone são cobrados e renovados. 
+---
+= Gerenciar preferências de faturamento
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode configurar e gerenciar as preferências de faturamento no NetApp Console para controlar como o uso da capacidade, as renovações e as faturas são aplicadas às contas da sua organização.  As preferências de faturamento determinam se as cobranças de uso provêm de licenças da NetApp , contratos do mercado de nuvem ou acordos da Keystone .
+
+.Antes de começar
+* Você possui a função de *Administrador de Faturamento* ou *Administrador da Organização*.
+* Todas as assinaturas relevantes do marketplace estão vinculadas à sua organização.
+* Você analisou a configuração existente em * Licenses and subscriptions*.
+
+
+
+
+== Defina as preferências de faturamento
+
+Você pode selecionar como o Console aplica as cobranças de uso em diferentes fontes de faturamento.  Isso determina quais contas serão cobradas primeiro e como as renovações serão gerenciadas.
+
+.Passos
+. No NetApp Console, selecione *Governança > Licenses and subscriptions*.
+. Selecione *Preferências de faturamento*.
+. Escolha uma das seguintes modalidades de faturamento:
++
+** *Licenças NetApp em primeiro lugar* – Utilize primeiro as licenças NetApp e, em seguida, as assinaturas do marketplace para uso adicional.
+** *Somente assinaturas do Marketplace* – Cobrança de todo o uso diretamente pelas assinaturas do Marketplace.
+
+
+. Em *Assinaturas do Marketplace*, selecione a assinatura para cada hiperescalador (AWS, Azure e Google Cloud).
+. Se você utiliza várias assinaturas em um único hiperescalador, habilite a *Configuração CVO personalizada*.
+. (Opcional) Atualize os *contatos de faturamento* e os *contatos de notificação*.
+. (Opcional) Insira uma *etiqueta de centro de custo* para associar o faturamento aos códigos contábeis internos.
+. Selecione *Salvar alterações*.
+. Quando solicitado, revise a caixa de diálogo de confirmação e selecione *Confirmar*.
+
+
+.Resultado
+O NetApp Console atualiza os mapeamentos de faturamento.  As futuras cobranças de serviço e renovações agora usarão a configuração selecionada.
+
+
+NOTE: Alterar o modo de faturamento redistribui a forma como as taxas de serviço são aplicadas.  As novas instâncias do Cloud Volumes ONTAP (CVO) herdam automaticamente a configuração selecionada.
+
+
+
+== Ativar configuração CVO personalizada
+
+A configuração personalizada do CVO permite atribuir várias assinaturas de marketplace ao mesmo hiperescalador.  Utilize este modo se a sua organização mantiver contas de faturamento diferentes para unidades de negócios ou ambientes distintos.
+
+.Passos
+. No NetApp Console, selecione *Governança > Licenses and subscriptions*.
+. Selecione *Preferências de faturamento*.
+. Em **Assinaturas do Marketplace**, habilite a *Configuração personalizada de CVO*.
+. Selecione **Salvar alterações**.
+
+
+.Resultado
+Agora você pode atribuir assinaturas específicas do marketplace a instâncias individuais do Cloud Volumes ONTAP no mesmo hiperescalador.
+
+
+WARNING: Após essa opção ser ativada, a configuração personalizada do CVO não poderá ser revertida na guia **Preferências de faturamento**.  Desativá-lo redefine toda a cobrança do CVO para a configuração de cobrança padrão dos seus serviços de dados.
+
+
+
+== Editar configuração do marketplace
+
+Você pode editar os detalhes de configuração do marketplace para associar assinaturas a projetos na nuvem ou para atualizar informações de contrato.
+
+.Passos
+. Aberto * Licenses and subscriptions*.
+. Selecione *Preferências de faturamento*.
+. Selecione a visualização desejada para o seguinte:
++
+** *Nome da assinatura do Marketplace*
+** *Projeto em nuvem* (somente Google Cloud)
+** *Tipo de assinatura* (Anual ou Pré-pago)
+
+
+. Selecione *Salvar alterações*.
+
+
+.Resultado
+A nova configuração entra em vigor imediatamente e os dados de faturamento são sincronizados com o provedor de nuvem.
+
+
+TIP: Para associar uma assinatura a vários projetos na nuvem, certifique-se de que a *Configuração personalizada do CVO* esteja ativada primeiro.
+
+
+
+== Confirme ou reverta as alterações de faturamento.
+
+Toda atualização das preferências de faturamento requer confirmação para evitar alterações acidentais.
+
+.Confirme as alterações.
+. Após editar as preferências de faturamento, selecione *Salvar alterações*.
+. Confira o resumo na caixa de diálogo de confirmação.
+. Selecione *Salvar* para aplicar as atualizações ou *Cancelar* para descartá-las.
+
+
+.Voltar à cobrança padrão
+. Abra as *Preferências de faturamento*.
+. Desative a *Configuração personalizada do CVO*.
+. Quando solicitado, confirme que deseja retornar à configuração padrão.
+
+
+.Resultado
+As instâncias do CVO retornam ao método de faturamento padrão usado para os outros serviços de dados.

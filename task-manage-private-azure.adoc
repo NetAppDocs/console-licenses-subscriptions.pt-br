@@ -97,37 +97,11 @@ A automação do lado do Azure pode levar de 30 segundos a 5 minutos para ser co
 ====
 
 
-. Clique em *Associar* e depois em *Concluído*.
+. Clique em **Associar**.
+. Preencha o formulário para associar a assinatura à sua organização do Console.  Em seguida, clique em **Associar**.
+. Após associar a assinatura, navegue até a aba **Preferências de faturamento** e selecione-a.
+. Analise as opções de assinatura do marketplace.
+. Selecione a assinatura do marketplace que deseja faturar.  Isso só se aplica quando há mais de uma opção.
+. Selecione **Salvar alterações**.
+. Repita esses passos conforme necessário, caso haja múltiplas assinaturas em diferentes servidores de hiperescala.
 
-
-[IMPORTANT]
-====
-É necessário concluir a atribuição da assinatura no Console para ativar a compra e aplicar o preço com desconto.
-
-====
-
-
-== Configurar a assinatura com credenciais do Azure
-
-. No Console, acesse *Governança > Licenses and subscriptions* e selecione a aba *Assinaturas do Marketplace*.
-. Valide os detalhes da assinatura:
-+
-.. Localize a assinatura do Marketplace que você criou.
-.. Expanda a linha para revisar os detalhes e confirmar se a assinatura está associada à sua conta do Console.
-
-
-. Clique no *menu de três pontos* ao lado da assinatura e selecione *Configurar*.
-. Selecione a *assinatura do Azure* apropriada e clique em *Configurar*.
-
-
-As cobranças do Marketplace para essa credencial do Azure agora são cobradas por meio da assinatura do Marketplace. Para contratos anuais, o uso desta credencial é contabilizado no contrato anual.
-
-[IMPORTANT]
-====
-Repita as etapas 1 a 4 para cada credencial do Azure na sua conta do Console que você deseja associar à assinatura.
-
-* Para associar credenciais de outra organização do Console, use o menu suspenso *Organização* para alternar as organizações e repita as etapas.
-* Para associar credenciais de outro agente, use o menu suspenso *Agente* para alternar e repetir as etapas.
-
-
-====

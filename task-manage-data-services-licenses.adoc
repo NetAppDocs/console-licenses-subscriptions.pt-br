@@ -133,4 +133,9 @@ Após concluir o pagamento e registrar a licença no Site de Suporte da NetApp ,
 
 == Ver status da licença
 
-Diretiva não resolvida em <stdin> - include::_include/task-view-license-status.adoc[]
+Para gerenciar licenças, você pode agrupá-las com base no nome do serviço.  Isso permite que você veja todas as licenças relacionadas a um serviço específico.  Você pode expandir uma linha para visualizar informações detalhadas sobre cada licença relacionada ao serviço.  A linha raiz de cada serviço exibe o nome do serviço e a capacidade usada para esse serviço.  As licenças são agrupadas automaticamente por nome de serviço.  A linha raiz de cada serviço mostra o nome do serviço e a capacidade usada para esse serviço.
+
+.Passos
+. No menu Console, selecione *Governança* > *Carteira digital* e, em seguida, selecione a guia *Licenças diretas*.
+. Clique em uma linha de nome de serviço para expandi-la.  Isso exibe todas as licenças relacionadas a esse serviço.  Cada linha expandida exibe informações detalhadas sobre as licenças, incluindo ID da licença, número de série, capacidade e data de expiração.
+

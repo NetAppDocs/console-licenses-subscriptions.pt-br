@@ -87,57 +87,11 @@ Revise cuidadosamente os detalhes, o prazo e o preço do plano. Se algo estiver 
 ====
 
 
-. Clique em **Associar** e depois em **Concluído**.
-
-
-
-
-== Associe a assinatura às credenciais do Google Cloud
-
-. No Console, acesse **Governança > Licenses and subscriptions** e selecione a aba **Assinaturas do Marketplace**.
-. Valide os detalhes da assinatura:
-+
-.. Localize a assinatura criada no processo de aceitação.
-.. Verifique se o plano correto é exibido.
-.. Expanda a linha para confirmar a associação da oferta privada.
-
-
-
-
-[NOTE]
-====
-Devido às limitações do Google Cloud Marketplace, alguns campos podem ser exibidos `N/A` . Essas informações estão disponíveis somente no console do Google Cloud.
-
-====
-. [Opcional] Para renomear a assinatura:
-+
-.. Clique no **menu de três pontos** ao lado da assinatura.
-.. Selecione **Renomear assinatura**.
-
-
-. Clique no **menu de três pontos** novamente e selecione **Configurar**.
-. Selecione a credencial da conta do Google Cloud apropriada e clique em **Configurar**.
-
-
-As cobranças do Marketplace para esta credencial do Google Cloud agora são cobradas por meio da assinatura do Marketplace. Para contratos anuais, o uso desta credencial é contabilizado no contrato anual.
-
-[IMPORTANT]
-====
-Repita as etapas 1 a 5 para cada credencial do Google Cloud na sua conta do Console que você deseja associar à assinatura do Marketplace.
-
-* Para associar credenciais de outra conta do Console, use o menu suspenso **Conta** para alternar as contas e repita as etapas.
-* Para associar credenciais para outro agente, use o menu suspenso **Agente** e repita as etapas.
-
-
-====
-
-
-== Ver o uso do Google Cloud
-
-Para visualizar o status e o uso dos créditos do Google Cloud:
-
-. No console do Google Cloud, acesse **Cloud Marketplace**.
-. Clique em **Seus pedidos**.
-. No menu suspenso **Selecionar conta de cobrança**, escolha a conta de cobrança associada à sua oferta privada.
-. Encontre sua oferta privada na tabela, clique no **menu de três pontos** e selecione **Ver crédito**.
+. Clique em **Associar**.
+. Preencha o formulário para associar a assinatura à sua organização do Console.  Em seguida, clique em **Associar**.
+. Após associar a assinatura, navegue até a aba **Preferências de faturamento** e selecione-a.
+. Analise as opções de assinatura do marketplace.
+. Selecione a assinatura do marketplace que deseja faturar.  Isso só se aplica quando há mais de uma opção.
+. Selecione **Salvar alterações**.
+. Repita esses passos conforme necessário, caso haja múltiplas assinaturas em diferentes servidores de hiperescala.
 
