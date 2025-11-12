@@ -18,7 +18,6 @@ As preferências de faturamento determinam como você lida com pagamentos, fatur
 
 * *As assinaturas do Marketplace* correspondem a contratos de marketplace na nuvem (AWS, Azure ou Google Cloud) em que as cobranças de uso são feitas por meio de uma conta de hiperescalador.
 * *Licenças diretas* representam licenças adquiridas diretamente da NetApp, gerenciadas no NetApp Console por meio de chaves de licença, destinatários de faturas e opções de renovação.
-* *As assinaturas do Keystone * são gerenciadas de acordo com o seu contrato com o Keystone , onde os destinatários das faturas e as etiquetas dos centros de custo são tratados através da mesma interface.
 
 
 Você pode configurar como sua organização aloca e paga pelos serviços, dependendo do seu modelo de aquisição.
@@ -92,7 +91,6 @@ Você pode escolher entre os modos de faturamento dependendo da estratégia de c
 * *Contrato anual* — Garante um período de assinatura definido.
 * *Renovação automática* — Permite a renovação automática de licenças ou contratos de mercado quando expirarem.  Desativar esta opção requer renovação manual para evitar interrupção do serviço.
 * *Configuração CVO personalizada* — Permite mapear várias assinaturas de marketplace para um único hiperescalador.  Isso pode ser útil quando diferentes unidades de negócios ou projetos exigem contas de faturamento distintas dentro do mesmo ambiente de nuvem.
-* *Caixa de diálogo Confirmar alterações* — Aparece antes de aplicar as atualizações de faturamento, permitindo que os administradores revisem e confirmem as modificações.  Essa medida de segurança ajuda a evitar alterações acidentais de configuração que poderiam redirecionar as cobranças para a conta errada.
 
 
 
