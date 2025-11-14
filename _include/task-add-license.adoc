@@ -12,7 +12,7 @@ Após você adquirir uma licença do seu representante de vendas da NetApp , a N
 NOTE: Para inserir o número de série, primeiro https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["adicione sua conta do site de suporte da NetApp ao console"^] .  Esta é a conta do site de suporte da NetApp que está autorizada a acessar o número de série.
 
 .Passos
-. No menu do NetApp Console , selecione *Governança > Licenses and subscriptions* e, em seguida, selecione a guia *Licenças diretas*.
+. No menu do NetApp Console , selecione *Administração > Licenses and subscriptions* e, em seguida, selecione a guia *Licenças diretas*.
 . Selecione *Adicionar licença*.
 . Na caixa de diálogo *Adicionar licença*, insira as informações da licença e selecione *Adicionar licença*:
 +

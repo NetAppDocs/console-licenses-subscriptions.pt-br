@@ -14,7 +14,7 @@ summary: Configure as preferências de faturamento no NetApp Console para contro
 
 
 [role="lead"]
-Você pode configurar e gerenciar as preferências de faturamento no NetApp Console para controlar como o uso da capacidade, as renovações e as faturas são aplicadas às contas da sua organização.  As preferências de faturamento determinam se as cobranças de uso provêm de licenças da NetApp , contratos do mercado de nuvem ou acordos da Keystone .
+Você pode configurar e gerenciar as preferências de faturamento no NetApp Console para controlar como o uso da capacidade, as renovações e as faturas são aplicadas às contas da sua organização. As preferências de faturamento determinam se as cobranças de uso provêm de licenças da NetApp , contratos do mercado de nuvem ou acordos da Keystone .
 
 .Antes de começar
 * Você possui a função de *Administrador de Faturamento* ou *Administrador da Organização*.
@@ -29,7 +29,7 @@ Você pode configurar e gerenciar as preferências de faturamento no NetApp Cons
 Você pode selecionar como o Console aplica as cobranças de uso em diferentes fontes de faturamento.  Isso determina quais contas serão cobradas primeiro e como as renovações serão gerenciadas.
 
 .Passos
-. No NetApp Console, selecione *Governança > Licenses and subscriptions*.
+. No NetApp Console, selecione *Administração > Licenses and subscriptions*.
 . Selecione *Preferências de faturamento*.
 . Escolha uma das seguintes modalidades de faturamento:
 +
@@ -58,7 +58,7 @@ NOTE: Alterar o modo de faturamento redistribui a forma como as taxas de serviç
 A configuração personalizada do CVO permite atribuir várias assinaturas de marketplace ao mesmo hiperescalador.  Utilize este modo se a sua organização mantiver contas de faturamento diferentes para unidades de negócios ou ambientes distintos.
 
 .Passos
-. No NetApp Console, selecione *Governança > Licenses and subscriptions*.
+. No NetApp Console, selecione *Administração > Licenses and subscriptions*.
 . Selecione *Preferências de faturamento*.
 . Em **Assinaturas do Marketplace**, habilite a *Configuração personalizada de CVO*.
 . Selecione **Salvar alterações**.
@@ -82,7 +82,7 @@ Você pode editar os detalhes de configuração do marketplace para associar ass
 . Selecione a visualização desejada para o seguinte:
 +
 ** *Nome da assinatura do Marketplace*
-** *Projeto em nuvem* (somente Google Cloud)
+** *Projeto em nuvem*
 ** *Tipo de assinatura* (Anual ou Pré-pago)
 
 

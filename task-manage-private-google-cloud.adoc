@@ -93,5 +93,7 @@ Revise cuidadosamente os detalhes, o prazo e o preço do plano. Se algo estiver 
 . Analise as opções de assinatura do marketplace.
 . Selecione a assinatura do marketplace que deseja faturar.  Isso só se aplica quando há mais de uma opção.
 . Selecione **Salvar alterações**.
-. Repita esses passos conforme necessário, caso haja múltiplas assinaturas em diferentes servidores de hiperescala.
+. Repita esses passos conforme necessário, caso haja várias assinaturas em diferentes provedores de hiperescala.
 
+
+Para obter mais informações sobre assinaturas de marketplace e faturamento de licenças diretas, consulte olink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentação de preferências de faturamento"] .
