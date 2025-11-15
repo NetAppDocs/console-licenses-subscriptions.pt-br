@@ -14,7 +14,7 @@ summary: Saiba como as licenças e assinaturas definem a forma como o NetApp Con
 
 
 [role="lead"]
-As preferências de faturamento determinam como você lida com pagamentos, faturas e renovações das licenças e assinaturas ativas da sua organização.  Você pode aplicar essas preferências globalmente, para que elas afetem todos os relacionamentos de faturamento dentro da sua organização, ou no nível da assinatura individual, quando um contrato específico exigir sua própria configuração.
+As preferências de faturamento permitem que você determine como deseja gerenciar os pagamentos e as renovações de suas licenças e assinaturas ativas. Você pode aplicar essas preferências globalmente, para que elas afetem todos os relacionamentos de faturamento, ou no nível da assinatura individual, quando um contrato específico exigir sua própria configuração.
 
 * *As assinaturas do Marketplace* correspondem a contratos de marketplace na nuvem (AWS, Azure ou Google Cloud) em que as cobranças de uso são feitas por meio de uma conta de hiperescalador.
 * *Licenças diretas* representam licenças adquiridas diretamente da NetApp, gerenciadas no NetApp Console por meio de chaves de licença, destinatários de faturas e opções de renovação.
@@ -38,7 +38,12 @@ Por exemplo, as preferências de faturamento global podem unificar sua lista de 
 
 As preferências de faturamento são configuradas na seção * Licenses and subscriptions* do NetApp Console.
 
-A partir daí, você pode: - Definir as preferências de faturamento para sua organização - Habilitar a configuração personalizada do CVO para mapeamento avançado - Editar ou atualizar os detalhes da assinatura do marketplace
+A partir daí, você pode:
+
+* Defina as preferências de faturamento para sua organização.
+* Habilite a configuração personalizada do CVO para mapeamento avançado.
+* Editar ou atualizar detalhes da assinatura do marketplace
+
 
 
 

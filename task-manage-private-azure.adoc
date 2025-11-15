@@ -106,4 +106,4 @@ A automação do lado do Azure pode levar de 30 segundos a 5 minutos para ser co
 . Repita esses passos conforme necessário, caso haja várias assinaturas em diferentes provedores de hiperescala.
 
 
-Para obter mais informações sobre assinaturas de marketplace e faturamento de licenças diretas, consulte olink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentação de preferências de faturamento"] .
+Para obter mais informações sobre assinaturas de marketplace e faturamento direto de licenças, consulte o link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentação de preferências de faturamento"].
