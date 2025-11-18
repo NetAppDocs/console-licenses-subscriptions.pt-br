@@ -17,9 +17,9 @@ summary: Configure as preferências de faturamento no NetApp Console para contro
 Você pode configurar e gerenciar as preferências de faturamento no NetApp Console para controlar como o uso da capacidade, as renovações e as faturas são aplicadas às contas da sua organização. As preferências de faturamento determinam se as cobranças de uso provêm de licenças da NetApp , contratos do mercado de nuvem ou acordos da Keystone .
 
 .Antes de começar
-* Você possui a função de *Administrador de Faturamento* ou *Administrador da Organização*.
+* Você tem acesso à função de *Administrador*.
 * Todas as assinaturas relevantes do marketplace estão vinculadas à sua organização.
-* Você analisou a configuração existente em * Licenses and subscriptions*.
+* Você analisou a configuração existente para *licenças e assinaturas*.
 
 
 
@@ -68,7 +68,7 @@ A configuração personalizada do CVO permite atribuir várias assinaturas de ma
 Agora você pode atribuir assinaturas específicas do marketplace a instâncias individuais do Cloud Volumes ONTAP no mesmo hiperescalador.
 
 
-WARNING: Após essa opção ser ativada, a configuração personalizada do CVO não poderá ser revertida na guia **Preferências de faturamento**.  Desativá-lo redefine toda a cobrança do CVO para a configuração de cobrança padrão dos seus serviços de dados.
+WARNING: Após essa opção ser ativada, a configuração personalizada do CVO não poderá ser revertida nas **Preferências de faturamento**. Desativar esta opção redefine toda a faturação da CVO para a configuração de faturação padrão dos seus serviços de dados.
 
 
 

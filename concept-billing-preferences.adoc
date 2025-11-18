@@ -26,8 +26,32 @@ Você pode configurar como sua organização aloca e paga pelos serviços, depen
 
 == Permissões
 
-Somente usuários com a função de *Administrador da Conta* ou *Administrador de Faturamento* podem modificar as preferências de faturamento.  Essas funções garantem que somente usuários autorizados possam alterar contatos de faturamento, centros de custo ou configurações de renovação que afetam os dados de faturamento da organização.  Usuários com a função *Operador* podem visualizar as preferências existentes, mas não têm permissão para editá-las.
+O gerenciamento de licenças e assinaturas no NetApp Console é controlado por meio de funções de usuário. Essas funções fornecem níveis de acesso distintos, permitindo ou restringindo ações específicas que os usuários podem realizar para esse recurso.
 
+[cols="2,5"]
+|===
+| Papel | Descrição 
+
+
+| *Administrador*  a| 
+Usuários com essa função têm controle total sobre licenças e assinaturas. Os usuários administradores podem:
+
+* Veja todas as licenças e assinaturas.
+* Adicionar novas licenças.
+* Associe assinaturas a contas.
+* Modificar os detalhes da licença existente.
+* Excluir licenças ou desvincular assinaturas.
+
+
+
+
+| *Espectador*  a| 
+Usuários com essa função têm acesso somente leitura. Os usuários do visualizador podem:
+
+* Veja todas as licenças e assinaturas.
+
+
+|===
 
 
 == Preferências de faturamento
