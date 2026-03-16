@@ -16,7 +16,7 @@ summary: Saiba como as licenças e assinaturas definem a forma como o NetApp Con
 [role="lead"]
 As preferências de faturamento permitem que você determine como deseja gerenciar os pagamentos e as renovações de suas licenças e assinaturas ativas. Você pode aplicar essas preferências globalmente, para que elas afetem todos os relacionamentos de faturamento, ou no nível da assinatura individual, quando um contrato específico exigir sua própria configuração.
 
-* *As assinaturas do Marketplace* correspondem a contratos de marketplace na nuvem (AWS, Azure ou Google Cloud) em que as cobranças de uso são feitas por meio de uma conta de hiperescalador.
+* *Assinaturas de marketplace* correspondem a contratos de marketplace de nuvem (AWS, Azure ou Google Cloud) em que as cobranças de uso são feitas por meio de uma conta de provedor de nuvem
 * *Licenças diretas* representam licenças adquiridas diretamente da NetApp, gerenciadas no NetApp Console por meio de chaves de licença, destinatários de faturas e opções de renovação.
 
 
@@ -65,7 +65,7 @@ As preferências de faturamento são configuradas na seção * Licenses and subs
 A partir daí, você pode:
 
 * Defina as preferências de faturamento para sua organização.
-* Habilite a configuração personalizada do CVO para mapeamento avançado.
+* Habilite o mapeamento avançado de instâncias do Cloud Volumes ONTAP para assinaturas do marketplace
 * Editar ou atualizar detalhes da assinatura do marketplace
 
 
@@ -119,7 +119,7 @@ Você pode escolher entre os modos de faturamento dependendo da estratégia de c
 * *PAYGO (Pague Conforme o Uso)* — Cobrança somente pelo consumo real.
 * *Contrato anual* — Garante um período de assinatura definido.
 * *Renovação automática* — Permite a renovação automática de licenças ou contratos de mercado quando expirarem.  Desativar esta opção requer renovação manual para evitar interrupção do serviço.
-* *Configuração CVO personalizada* — Permite mapear várias assinaturas de marketplace para um único hiperescalador.  Isso pode ser útil quando diferentes unidades de negócios ou projetos exigem contas de faturamento distintas dentro do mesmo ambiente de nuvem.
+* *Custom Cloud Volumes ONTAP configuration* — Permite mapear várias assinaturas do marketplace para um provedor de nuvem. Isso pode ser útil quando diferentes unidades de negócios ou projetos exigem contas de faturamento distintas dentro do mesmo ambiente de nuvem.
 
 
 
@@ -143,6 +143,6 @@ Os exemplos a seguir ilustram como diferentes configurações de faturamento se 
 
 | Você deseja retornar a uma configuração de faturamento simples com uma única fonte. | *Desativar configuração personalizada de CVO* 
 |===
-Por exemplo, considere uma organização que combina licenças diretas da NetApp com assinaturas do marketplace.  Uma configuração típica definiria *licenças NetApp primeiro* como o modo de faturamento padrão para usar a capacidade pré-paga antes do faturamento do marketplace.  Em seguida, na *Configuração CVO personalizada*, cada provedor de hiperescala (AWS, Azure, Google Cloud) receberia seu respectivo ID de assinatura.
+Por exemplo, considere uma organização que combina tanto licenças diretas NetApp quanto assinaturas de marketplace. Uma configuração típica definiria *NetApp licenses first* como o modo de faturamento padrão para usar a capacidade pré-paga antes do faturamento do marketplace. Em seguida, em *configuração CVO personalizada*, cada provedor de nuvem (AWS, Azure, Google Cloud) receberia seu ID de assinatura correspondente.
 
 Após salvar essas configurações, os administradores podem revisar os mapeamentos em * Licenses and subscriptions* para verificar se cada serviço aponta para a conta correta.  Para validação adicional, eles podem comparar os dados de uso no NetApp Console com os painéis de faturamento na nuvem e ajustar as tags ou contatos do centro de custos conforme necessário para manter a consistência dos relatórios.

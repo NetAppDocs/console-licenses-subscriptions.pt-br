@@ -37,8 +37,8 @@ Você pode selecionar como o Console aplica as cobranças de uso em diferentes f
 ** *Somente assinaturas do Marketplace* – Cobrança de todo o uso diretamente pelas assinaturas do Marketplace.
 
 
-. Em *Assinaturas do Marketplace*, selecione a assinatura para cada hiperescalador (AWS, Azure e Google Cloud).
-. Se você utiliza várias assinaturas em um único hiperescalador, habilite a *Configuração CVO personalizada*.
+. Em *Assinaturas do Marketplace*, selecione a assinatura para cada provedor de nuvem (AWS, Azure, and Google Cloud).
+. Se você utiliza várias assinaturas em um único provedor de nuvem, habilite *Custom CVO configuration*.
 . (Opcional) Atualize os *contatos de faturamento* e os *contatos de notificação*.
 . (Opcional) Insira uma *etiqueta de centro de custo* para associar o faturamento aos códigos contábeis internos.
 . Selecione *Salvar alterações*.
@@ -53,22 +53,22 @@ NOTE: Alterar o modo de faturamento redistribui a forma como as taxas de serviç
 
 
 
-== Ativar configuração CVO personalizada
+== Habilitar configuração personalizada do Cloud Volumes ONTAP
 
-A configuração personalizada do CVO permite atribuir várias assinaturas de marketplace ao mesmo hiperescalador.  Utilize este modo se a sua organização mantiver contas de faturamento diferentes para unidades de negócios ou ambientes distintos.
+Agora você pode atribuir assinaturas específicas do marketplace a instâncias individuais do Cloud Volumes ONTAP no mesmo provedor de nuvem. Use este modo se sua organização mantiver contas de faturamento diferentes para unidades de negócios ou ambientes distintos.
 
 .Passos
 . No NetApp Console, selecione *Administração > Licenses and subscriptions*.
 . Selecione *Preferências de faturamento*.
-. Em **Assinaturas do Marketplace**, habilite a *Configuração personalizada de CVO*.
+. Em **Assinaturas do Marketplace**, habilite a *Custom CVO configuration*.
 . Selecione **Salvar alterações**.
 
 
 .Resultado
-Agora você pode atribuir assinaturas específicas do marketplace a instâncias individuais do Cloud Volumes ONTAP no mesmo hiperescalador.
+Agora você pode atribuir assinaturas específicas do marketplace a instâncias individuais do Cloud Volumes ONTAP no mesmo provedor de nuvem.
 
 
-WARNING: Após essa opção ser ativada, a configuração personalizada do CVO não poderá ser revertida nas **Preferências de faturamento**. Desativar esta opção redefine toda a faturação da CVO para a configuração de faturação padrão dos seus serviços de dados.
+WARNING: Após a ativação desta opção, a configuração personalizada do Cloud Volumes ONTAP não poderá ser revertida nas **Preferências de faturamento**. Desativar esta opção redefine todo o faturamento do Cloud Volumes ONTAP para a configuração de faturamento padrão dos seus serviços de dados.
 
 
 
@@ -114,4 +114,4 @@ Toda atualização das preferências de faturamento requer confirmação para ev
 
 
 .Resultado
-As instâncias do CVO retornam ao método de faturamento padrão usado para os outros serviços de dados.
+As instâncias do Cloud Volumes ONTAP retornam ao método de faturamento padrão usado para os outros serviços de dados.

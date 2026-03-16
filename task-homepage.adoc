@@ -37,7 +37,7 @@ Por exemplo, os administradores encarregados de gerenciar os recursos do Cloud V
 
 NOTE: Embora você possa atualizar e remover licenças do painel, não é possível adicionar uma nova licença ou assinatura.
 
-link:task-manage-data-services-licenses.html["Saiba mais sobre o gerenciamento de licenças"^] . link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas"^] .
+link:task-manage-data-services-licenses.html["Saiba mais sobre o gerenciamento de licenças"]. link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas"].
 
 .Passos
 . No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
@@ -55,7 +55,7 @@ Cada bloco fornece uma visão geral gráfica da capacidade.  Você pode visualiz
 Você não pode adicionar novas licenças ou assinaturas na página *Visão geral* para um serviço específico.  Você só pode adicionar licenças ou assinaturas na aba *Licenças diretas* ou na aba *Assinaturas do Marketplace*, respectivamente.
 
 +
-link:task-data-services-licenses.html["Saiba mais sobre como gerenciar licenças."] link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas."]
+link:task-manage-data-services-licenses.html["Saiba mais sobre como gerenciar licenças."] link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas."]
 
 
 
@@ -71,6 +71,6 @@ Você pode visualizar problemas de licença e assinatura que precisam ser resolv
 . Na página *Requer ação*, selecione a guia *Licenças* ou a guia *Assinaturas*.
 . Use o menu de ações para resolver o problema.
 +
-link:task-manage-data-services-licenses.html["Saiba mais sobre o gerenciamento de licenças"^] . link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas"^] .
+link:task-manage-data-services-licenses.html["Saiba mais sobre o gerenciamento de licenças"]. link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas"].
 
 
