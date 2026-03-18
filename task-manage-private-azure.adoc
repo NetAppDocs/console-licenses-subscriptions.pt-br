@@ -85,8 +85,8 @@ A automação do lado do Azure pode levar de 30 segundos a 5 minutos para ser co
 . Após efetuar login, você será redirecionado para https://console.netapp.com/licenses/overview[] . Você será solicitado a:
 +
 .. Insira um *Nome de exibição* para a assinatura do Marketplace.
-.. Selecione as *Contas* do Console que devem ter acesso a esta assinatura.
-.. Opcionalmente, você pode habilitar *Substituir assinatura existente* para substituir automaticamente uma assinatura existente do Marketplace em uma conta do Console.
+.. Selecione as *Organizations* do Console que devem ter acesso a esta assinatura.
+.. Opcionalmente, você pode ativar *Substituir assinatura existente* para substituir automaticamente uma assinatura existente do Marketplace em uma organização do Console.
 +
 [NOTE]
 ====

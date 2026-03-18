@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-aws.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
-summary: Aceite uma oferta privada do Marketplace para o NetApp Console no console da AWS e configure as credenciais da AWS no Console. 
+summary: Aceite uma oferta privada do Marketplace para o NetApp Console no Portal do AWS Marketplace e configure as credenciais da AWS no Console. 
 ---
 = Aceitar e configurar uma oferta privada do AWS Marketplace para o NetApp Console
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Aceite uma oferta privada do Marketplace para o NetApp Console no conso
 
 
 [role="lead"]
-Aceite uma oferta privada do Marketplace para o NetApp Console no console da AWS e configure as credenciais da AWS no Console.
+Aceite uma oferta privada do Marketplace para o NetApp Console no Portal do AWS Marketplace e configure as credenciais da AWS no Console.
 
 .Antes de começar
 * Trabalhe com as vendas da NetApp para criar uma oferta privada e obter o link de ativação.
@@ -28,7 +28,7 @@ Aceite uma oferta privada do Marketplace para o NetApp Console no console da AWS
 
 
 
-== Aceite a oferta privada no console da AWS
+== Aceite a oferta privada no portal do AWS Marketplace
 
 É necessário concluir a atribuição da assinatura no Console para ativar a compra e aplicar o preço com desconto.
 
@@ -93,12 +93,12 @@ Para ofertas de contrato, insira o número de unidades acordadas. Para o Cloud V
 Se você aceitou a oferta, mas não concluiu o registro, retorne à página do produto. Para listagens de contratos, clique em *Exibir opções de compra* para exibir a oferta e, em seguida, selecione *Configurar sua conta*.
 
 ====
-. Sign in em https://console.netapp.com[] com sua conta do Console.
+. Sign in em https://console.netapp.com[].
 . Após efetuar login, navegue até https://console.netapp.com/licenses/overview[] . Você será solicitado a:
 +
 .. Insira um *Nome de exibição* para a assinatura do Marketplace.
-.. Selecione o Console *Contas* com acesso à assinatura.
-.. [Opcional] Habilite *Substituir assinatura existente* para substituir uma assinatura existente para uma conta.
+.. Selecione a *Organization* do NetApp Console com acesso à assinatura.
+.. [Opcional] Ative *Substituir assinatura existente* para sobrescrever uma assinatura existente para uma organização.
 +
 [NOTE]
 ====

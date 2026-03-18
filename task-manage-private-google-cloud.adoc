@@ -76,8 +76,8 @@ Revise cuidadosamente os detalhes, o prazo e o preço do plano. Se algo estiver 
 . Após efetuar login, você será redirecionado para `https://console.netapp.com/licenses/overview` . Um pop-up será exibido onde você deve:
 +
 .. Insira um nome de exibição para a *Assinatura do SaaS Marketplace*.
-.. Selecione as **Contas** do Console que devem ter acesso à assinatura.
-.. Opcionalmente, você pode habilitar **Substituir assinatura existente** se quiser substituir automaticamente uma assinatura existente do Marketplace em uma conta do Console.
+.. Selecione as *Organizations* do NetApp Console que devem ter acesso à assinatura.
+.. Opcionalmente, você pode ativar a opção **Substituir assinatura existente** se desejar substituir automaticamente uma assinatura existente Marketplace em uma organização NetApp Console.
 +
 [NOTE]
 ====
