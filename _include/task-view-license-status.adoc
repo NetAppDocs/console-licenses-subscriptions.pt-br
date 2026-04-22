@@ -6,5 +6,5 @@ Para gerenciar licenças, você pode agrupá-las com base no nome do serviço.  
 
 .Passos
 . No menu Console, selecione *Administração* > * Licenses and subscriptions* e, em seguida, selecione a guia *Licenças diretas*.
-. Clique em uma linha de nome de serviço para expandi-la.  Isso exibe todas as licenças relacionadas a esse serviço.  Cada linha expandida exibe informações detalhadas sobre as licenças, incluindo ID da licença, número de série, capacidade e data de expiração.
+. Selecione uma linha com o nome de um serviço para expandi-la. Isso exibirá todas as licenças relacionadas a esse serviço. Cada linha expandida exibe informações detalhadas sobre as licenças, incluindo ID da licença, número de série, capacidade e data de expiração.
 

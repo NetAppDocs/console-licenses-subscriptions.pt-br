@@ -46,7 +46,7 @@ Se você já possui uma assinatura PAYGO ativa ou uma oferta privada alterada, v
 
 ====
 .Passos
-. Clique no link de ativação da oferta privada fornecido pela sua equipe de vendas da NetApp . O link deve ser semelhante ao seguinte:
+. Selecione o link de ativação da oferta privada fornecido pela sua equipe de vendas da NetApp. O link deve ser semelhante ao seguinte:
 `https://console.cloud.google.com/marketplace/private-offers/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee`
 . Você será redirecionado para o Google Cloud Marketplace, onde poderá revisar os detalhes da oferta:
 +
@@ -62,14 +62,14 @@ Revise cuidadosamente os detalhes, o prazo e o preço do plano. Se algo estiver 
 ====
 
 
-. Confirme se as informações estão corretas, aceite os termos e clique em **Aceitar**.
+. Confirme se as informações estão corretas, aceite os termos e selecione **Accept**.
 . Um ícone de carregamento aparece enquanto a assinatura é criada.
 . Quando a assinatura for criada com sucesso, uma janela pop-up será exibida: *Sua solicitação de pedido foi enviada para a NetApp, Inc.*
-. Clique em **REGISTRAR-SE NA NETAPP, Inc.**. Você será redirecionado para o NetApp Console para concluir a configuração da sua assinatura. Se a oferta privada foi aceita por outro indivíduo em sua organização:
+. Selecione **REGISTRAR-SE NA NETAPP, Inc.**. Você será redirecionado para o NetApp Console para concluir a configuração da sua assinatura. Se a oferta privada foi aceita por outra pessoa em sua organização:
 +
 .. No Google Cloud Marketplace, acesse **Pedidos**.
 .. Localize a oferta com status **Pendente**.
-.. Clique no menu de três pontos e selecione **Registrar-se na NetApp, Inc.**
+.. Selecione o menu de três pontos e selecione **Registrar-se na NetApp, Inc.**
 
 
 . Você é redirecionado para `https://console.netapp.com` e solicitado a fazer login.
@@ -88,8 +88,8 @@ Revise cuidadosamente os detalhes, o prazo e o preço do plano. Se algo estiver 
 ====
 
 
-. Clique em **Associar**.
-. Preencha o formulário para associar a assinatura à sua organização do Console.  Em seguida, clique em **Associar**.
+. Selecione **Associate**.
+. Preencha o formulário para associar a assinatura à sua organização do Console. Selecione **Associar**.
 . Após associar a assinatura, navegue até a aba **Preferências de faturamento** e selecione-a.
 . Analise as opções de assinatura do marketplace.
 . Selecione a assinatura do marketplace que deseja faturar.  Isso só se aplica quando há mais de uma opção.

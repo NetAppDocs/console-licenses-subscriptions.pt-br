@@ -10,7 +10,7 @@ summary: Gerencie suas licenças baseadas em capacidade no Console para garantir
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/media/
 
 
 [role="lead lead"]

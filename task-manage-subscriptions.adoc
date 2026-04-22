@@ -161,7 +161,7 @@ Antes de remover uma assinatura, você deve desconfigurá-la.  Isso limpa todos 
 .Passos
 . No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
-. Na linha da assinatura que você deseja desconfigurar, clique no menu de ação e selecione *Desconfigurar*.
+. Na linha da assinatura que você deseja desconfigurar, selecione o menu de ações e, em seguida, *Unconfigure*.
 . Siga as instruções para remover ou redefinir quaisquer configurações ou dados associados.
 . Aguarde até que o status seja atualizado para *Não configurado*.
 

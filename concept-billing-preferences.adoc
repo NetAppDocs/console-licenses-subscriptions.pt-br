@@ -58,7 +58,7 @@ Usuários com essa função têm acesso somente leitura. Os usuários do visuali
 
 As preferências de faturamento garantem que as cobranças de uso e as renovações sejam aplicadas corretamente.  A configuração adequada reduz as disputas de faturamento e facilita o gerenciamento de modelos de licenciamento híbridos que combinam capacidade própria da NetApp com capacidade adquirida no marketplace.
 
-Por exemplo, as preferências de faturamento global podem unificar sua lista de contatos de faturamento, permitindo que todos os serviços compartilhem um único administrador de faturamento.  Você também pode usar etiquetas de centro de custo para alinhar o uso entre departamentos ou regiões e habilitar a renovação automática para evitar interrupções de serviço.  As novas implementações do Cloud Volumes ONTAP (CVO) herdam automaticamente o modo de faturamento definido aqui, o que mantém a consistência do modelo de cobrança da sua organização à medida que novos sistemas são adicionados.
+Por exemplo, as preferências de faturamento global podem unificar sua lista de contatos de faturamento para que todos os serviços compartilhem um único administrador de faturamento. Você também pode usar tags de centro de custo para alinhar o uso entre departamentos ou regiões e habilitar a renovação automática para evitar interrupções de serviço. Novas implantações do Cloud Volumes ONTAP herdam automaticamente o modo de faturamento que você define aqui, o que mantém o modelo de chargeback da sua organização consistente à medida que novos sistemas são adicionados.
 
 As preferências de faturamento são configuradas na seção * Licenses and subscriptions* do NetApp Console.
 
@@ -79,7 +79,7 @@ Os campos de faturamento armazenam metadados sobre como cada licença ou assinat
 
 === Campos do mercado
 
-Os campos do Marketplace descrevem contratos originados de um provedor de nuvem, como AWS, Azure ou Google Cloud.  Esses campos definem como o NetApp Console conecta suas assinaturas com as informações de faturamento armazenadas no marketplace do provedor.  Eles também controlam como as renovações, as atribuições regionais e as contas de faturamento são gerenciadas.
+Os campos do Marketplace descrevem contratos originados de um provedor de nuvem, como AWS, Azure ou Google Cloud. Esses campos definem como o NetApp Console conecta suas assinaturas com as informações de faturamento armazenadas no marketplace do provedor. Eles também controlam como as renovações, as atribuições regionais e as contas de faturamento são gerenciadas.
 
 * *Fornecedor de marketplace* — Identifica a plataforma em nuvem onde a cobrança é processada.  O fornecedor determina as funcionalidades suportadas, os tipos de contrato e as regras de renovação.  Por exemplo, as assinaturas do AWS Marketplace usam faturamento baseado em conta, enquanto o Azure pode oferecer suporte a modelos baseados em conta e em locatário.
 * *ID da conta de faturamento ou da assinatura* — Especifica o identificador exclusivo da conta usada para processar as cobranças.  Isso garante que os dados de utilização sejam faturados ao perfil de faturamento em nuvem correto.

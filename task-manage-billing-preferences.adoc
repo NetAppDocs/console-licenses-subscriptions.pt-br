@@ -14,7 +14,7 @@ summary: Configure as preferências de faturamento no NetApp Console para contro
 
 
 [role="lead"]
-Você pode configurar e gerenciar as preferências de faturamento no NetApp Console para controlar como o uso da capacidade, as renovações e as faturas são aplicadas às contas da sua organização. As preferências de faturamento determinam se as cobranças de uso provêm de licenças da NetApp , contratos do mercado de nuvem ou acordos da Keystone .
+Você pode configurar e gerenciar as preferências de faturamento no NetApp Console para controlar como o uso de capacidade, as renovações e as faturas são aplicadas às contas da sua organização. As preferências de faturamento determinam se as cobranças de uso provêm de NetApp licenses, contratos do marketplace de nuvem ou Keystone agreements.
 
 .Antes de começar
 * Você tem acesso à função de *Administrador*.
@@ -49,7 +49,7 @@ Você pode selecionar como o Console aplica as cobranças de uso em diferentes f
 O NetApp Console atualiza os mapeamentos de faturamento.  As futuras cobranças de serviço e renovações agora usarão a configuração selecionada.
 
 
-NOTE: Alterar o modo de faturamento redistribui a forma como as taxas de serviço são aplicadas.  As novas instâncias do Cloud Volumes ONTAP (CVO) herdam automaticamente a configuração selecionada.
+NOTE: Alterar o modo de faturamento redistribui a forma como as taxas de serviço são aplicadas. Novas instâncias do Cloud Volumes ONTAP herdam automaticamente a configuração selecionada.
 
 
 

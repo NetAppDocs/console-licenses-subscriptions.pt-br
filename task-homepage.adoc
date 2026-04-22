@@ -13,17 +13,17 @@ summary: Obtenha uma visão geral de todas as assinaturas e licenças da sua org
 == Use a visão geral do painel
 
 [role="lead"]
-Use o painel *Visão geral* no Console para monitorar a integridade de suas licenças e assinaturas para garantir que você possa gerenciar custos e manter o serviço conforme as assinaturas atingem datas de expiração ou limites de capacidade.
+O painel *Visão geral* no Console ajuda você a monitorar os status de suas licenças e assinaturas para garantir que você possa gerenciar custos e manter o serviço à medida que as assinaturas se aproximam das datas de vencimento ou dos limites de capacidade.
 
-Você pode visualizar informações específicas de licença e assinatura sobre cada um dos seus serviços de dados (incluindo o Cloud Volumes ONTAP) e detalhar cada um deles.
+Você pode visualizar informações específicas sobre licenças e assinaturas de cada um dos seus serviços de dados (incluindo Cloud Volumes ONTAP).
 
-Você também será alertado sobre limites de capacidade ou expirações futuras e será solicitado a tomar medidas.
+O painel Licenses and subscriptions alerta sobre limites de capacidade ou expirações iminentes, solicitando que você tome as medidas necessárias.
 
 
 
 === Ver detalhes sobre um serviço de dados específico
 
-O painel *Visão geral* oferece a capacidade de visualizar detalhes sobre os seguintes serviços de dados:
+O painel *Visão geral* fornece detalhes sobre os seguintes serviços:
 
 * Cloud Volumes ONTAP
 * Recuperação de desastres
@@ -63,11 +63,11 @@ link:task-manage-data-services-licenses.html["Saiba mais sobre como gerenciar li
 
 === Resolver problemas de licença ou assinatura
 
-Você pode visualizar problemas de licença e assinatura que precisam ser resolvidos.  Os problemas incluem licenças e assinaturas que estão expirando ou atingindo a capacidade.
+No painel Visão geral, você pode visualizar problemas de licença e assinatura que precisam ser resolvidos. Esses problemas incluem licenças e assinaturas que estão expirando ou atingindo a capacidade.
 
 . No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
 . Selecione *Visão geral*.
-. Selecione *Resolver* no bloco *Requer ação* para visualizar os problemas que precisam ser ajustados.  Se *Resolver* não for exibido, não há problemas que exijam ação neste momento.
+. No bloco *Ação necessária*, selecione *Resolver* para visualizar os problemas que precisam ser ajustados. Se *Resolver* não for exibido, não há problemas que exijam ação.
 . Na página *Requer ação*, selecione a guia *Licenças* ou a guia *Assinaturas*.
 . Use o menu de ações para resolver o problema.
 +

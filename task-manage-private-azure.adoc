@@ -48,17 +48,17 @@ Aceitar e ativar a oferta várias vezes resulta em cobrança dupla.
 
 ====
 .Passos
-. Clique no link da oferta privada fornecido pela sua equipe de vendas da NetApp e entre. Se nenhum link estiver disponível, entre diretamente no portal do Azure.
+. Selecione o link da oferta privada fornecido pela sua equipe de vendas da NetApp e faça login. Se nenhum link estiver disponível, faça login diretamente no portal do Azure.
 . Pesquise ou selecione *Marketplace* nos serviços do Azure.
-. Na página Marketplace, clique em *Gerenciamento de ofertas privadas* na seção *Gerenciamento*.
-. Clique em *Exibir + aceitar* para revisar os detalhes da oferta privada.
+. Na página do Marketplace, selecione *Private offer management* na seção *Management*.
+. Selecione *Ver + aceitar* para rever os detalhes da oferta privada.
 +
 .. Valide se os *detalhes do plano*, *prazo* e *preço* estão corretos.
 .. Se os detalhes estiverem incorretos, não assine. Entre em contato com a equipe de vendas da NetApp para corrigir a oferta.
 
 
-. Confirme e clique em *Aceitar oferta privada*.
-. Clique em *Comprar* para concluir o processo de compra.
+. Confirme e selecione *Aceitar oferta privada*.
+. Selecione *Comprar* para concluir o processo de compra.
 +
 [NOTE]
 ====
@@ -73,12 +73,12 @@ Se o botão *Comprar* não estiver disponível, confirme se você tem as permiss
 
 
 . Opcionalmente, defina *Tags* (para produto, local do site, definição de carga de trabalho ou convenção de nomenclatura).
-. Clique em *Revisar e assinar*, valide os detalhes e depois clique em *Inscrever-se*.
-. Quando a assinatura for criada com sucesso, clique em *Configurar conta agora*. Isso redireciona você para o NetApp Console para concluir a configuração.
+. Selecione *Revisar e assinar*, valide os detalhes e, em seguida, selecione *Assinar*.
+. Após a criação da assinatura, selecione *Configurar conta agora*. Isso o redirecionará para o NetApp Console para concluir a configuração.
 +
 [NOTE]
 ====
-A automação do lado do Azure pode levar de 30 segundos a 5 minutos para ser concluída. Se a página foi fechada antes de você clicar em *Configurar conta agora*, retorne ao serviço no portal do Azure. A assinatura é exibida como *Configuração pendente*. Selecione-o para continuar a configuração.
+A automação no Azure pode levar de 30 segundos a 5 minutos para ser concluída. Se a página foi fechada antes de você selecionar *Configurar conta agora*, retorne ao serviço no portal do Azure. A assinatura será exibida como *Configuração pendente*. Selecione-a para continuar a configuração.
 
 ====
 . Você é redirecionado para https://console.netapp.com[] e solicitado a fazer login.
@@ -86,7 +86,7 @@ A automação do lado do Azure pode levar de 30 segundos a 5 minutos para ser co
 +
 .. Insira um *Nome de exibição* para a assinatura do Marketplace.
 .. Selecione as *Organizations* do Console que devem ter acesso a esta assinatura.
-.. Opcionalmente, você pode ativar *Substituir assinatura existente* para substituir automaticamente uma assinatura existente do Marketplace em uma organização do Console.
+.. Opcionalmente, habilite *Substituir assinatura existente* para substituir automaticamente uma assinatura existente do Marketplace em uma organização do Console.
 +
 [NOTE]
 ====
@@ -97,8 +97,8 @@ A automação do lado do Azure pode levar de 30 segundos a 5 minutos para ser co
 ====
 
 
-. Clique em **Associar**.
-. Preencha o formulário para associar a assinatura à sua organização do Console.  Em seguida, clique em **Associar**.
+. Selecione **Associate**.
+. Preencha o formulário para associar a assinatura à sua organização do Console. Selecione **Associar**.
 . Após associar a assinatura, navegue até a aba **Preferências de faturamento** e selecione-a.
 . Analise as opções de assinatura do marketplace.
 . Selecione a assinatura do marketplace que deseja faturar.  Isso só se aplica quando há mais de uma opção.
