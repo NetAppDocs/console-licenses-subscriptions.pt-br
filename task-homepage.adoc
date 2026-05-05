@@ -13,7 +13,7 @@ summary: Obtenha uma visão geral de todas as assinaturas e licenças da sua org
 == Use a visão geral do painel
 
 [role="lead"]
-O painel *Visão geral* no Console ajuda você a monitorar os status de suas licenças e assinaturas para garantir que você possa gerenciar custos e manter o serviço à medida que as assinaturas se aproximam das datas de vencimento ou dos limites de capacidade.
+O painel *Visão geral* no NetApp Console ajuda você a monitorar o status de suas licenças e assinaturas para garantir que você possa gerenciar custos e manter o serviço à medida que as assinaturas se aproximam das datas de vencimento ou dos limites de capacidade.
 
 Você pode visualizar informações específicas sobre licenças e assinaturas de cada um dos seus serviços de dados (incluindo Cloud Volumes ONTAP).
 
@@ -25,11 +25,11 @@ O painel Licenses and subscriptions alerta sobre limites de capacidade ou expira
 
 O painel *Visão geral* fornece detalhes sobre os seguintes serviços:
 
+* Backup e Recuperação
+* Camadas de nuvem
 * Cloud Volumes ONTAP
 * Recuperação de desastres
 * Resiliência ao Ransomware
-* Backup e Recuperação
-* Camadas de nuvem
 
 
 Por exemplo, os administradores encarregados de gerenciar os recursos do Cloud Volumes ONTAP podem visualizar a capacidade atual de cada licença ou assinatura, o que lhes dá uma visão focada dos recursos dentro de sua área de atuação.
@@ -52,7 +52,7 @@ Cada bloco fornece uma visão geral gráfica da capacidade.  Você pode visualiz
 . Expanda qualquer linha para ver detalhes sobre o que a assinatura ou licença inclui, capacidade adquirida e termos.
 . Use o menu de ações para gerenciar uma licença ou assinatura específica, como atualizar uma licença ou associar uma assinatura a uma organização diferente.
 +
-Você não pode adicionar novas licenças ou assinaturas na página *Visão geral* para um serviço específico.  Você só pode adicionar licenças ou assinaturas na aba *Licenças diretas* ou na aba *Assinaturas do Marketplace*, respectivamente.
+Não é possível adicionar novas licenças ou assinaturas na página *Visão geral* de um serviço específico. Você só pode adicionar licenças na aba *Licenças diretas* ou assinaturas na aba *Assinaturas do Marketplace*.
 
 +
 link:task-manage-data-services-licenses.html["Saiba mais sobre como gerenciar licenças."] link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas."]

@@ -90,11 +90,11 @@ Revise cuidadosamente os detalhes, o prazo e o preço do plano. Se algo estiver 
 
 . Selecione **Associate**.
 . Preencha o formulário para associar a assinatura à sua organização do Console. Selecione **Associar**.
-. Após associar a assinatura, navegue até a aba **Preferências de faturamento** e selecione-a.
+. Após associar a assinatura, selecione a guia **Preferências de faturamento**.
 . Analise as opções de assinatura do marketplace.
 . Selecione a assinatura do marketplace que deseja faturar.  Isso só se aplica quando há mais de uma opção.
 . Selecione **Salvar alterações**.
-. Repita estas etapas conforme necessário, caso haja várias assinaturas em diferentes provedores de nuvem.
+. Repita esses passos conforme necessário, caso haja várias assinaturas em diferentes provedores de nuvem.
 
 
 Para obter mais informações sobre assinaturas de marketplace e faturamento direto de licenças, consulte o link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentação de preferências de faturamento"].

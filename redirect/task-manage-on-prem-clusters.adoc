@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-on-prem-clusters.html 
 keywords: cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp, netapp console 
-summary: Veja os detalhes do contrato para cada um dos seus clusters ONTAP locais.  Se você ainda não descobriu um cluster no Console, também é possível descobri-lo. 
+summary: Veja os detalhes do contrato para cada um dos seus clusters ONTAP locais. 
 ---
 = Gerenciar licenças para ONTAP local
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Veja os detalhes do contrato para cada um dos seus clusters ONTAP locai
 
 
 [role="lead"]
-Você pode visualizar detalhes do contrato para cada um dos seus clusters ONTAP locais no Console.  Se você não descobriu um cluster, você também pode descobri-los.
+No NetApp Console, você pode descobrir um cluster ONTAP e visualizar os detalhes do contrato para cada cluster ONTAP local que você descobriu.
 
 .Antes de começar
 O Console exibe detalhes sobre clusters ONTAP locais que você descobriu como sistemas ou que estão associados a uma conta do NetApp Support Site que você adicionou ao Console.

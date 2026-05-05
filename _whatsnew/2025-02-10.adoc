@@ -24,6 +24,6 @@ Agora você pode atualizar a organização à qual uma assinatura está associad
 
 
 
-=== Gerenciando licenças do Cloud Volume ONTAP
+=== Gerenciando licenças do Cloud Volumes ONTAP
 
-Agora você gerencia as licenças do Cloud Volumes ONTAP por meio da página inicial ou da aba *Licenças diretas*.  Use a aba *Assinaturas do Marketplace* para visualizar as informações da sua assinatura.
+Agora você gerencia as licenças do Cloud Volumes ONTAP pela página inicial ou pela aba *Licenças diretas*. Use a aba *Assinaturas do Marketplace* para visualizar as informações da sua assinatura.

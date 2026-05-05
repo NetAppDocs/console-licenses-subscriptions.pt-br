@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
-  <block id="f272914b94d98181b4b5b5374a222ace" category="paragraph">As informações da licença são exibidas automaticamente na seção ** Licenses and subscriptions** quando a conta do NetApp Console associada à licença também é uma conta do Site de suporte da NetApp e tem acesso à Internet.  Se você usou uma conta do Console que não está associada à sua conta NSS, será necessário adicionar uma licença manualmente.</block>
   <block id="32ba7365dfc460f8c57339fc1c2a9f76" category="paragraph">Você pode adicionar a licença no Console inserindo o número de série e a conta NSS associada ou carregando o arquivo de licença NetApp (NLF).  Você deve obter um arquivo de licença NetApp para fazer upload se o Console não tiver acesso à Internet (instalações em modo privado).</block>
   <block id="7e803dfc4831e069b5856fd52cb537ed" category="paragraph">Após você adquirir uma licença do seu representante de vendas da NetApp , a NetApp lhe enviará um e-mail com o número de série e detalhes adicionais do licenciamento.  Você precisará desse número de série para adicionar ou atualizar a respectiva licença no Console.</block>
   <block id="64c3bf191a7a3aa11f89d25d0284c2a4" category="inline-link">adicione sua conta do site de suporte da NetApp ao console</block>
@@ -17,8 +16,6 @@
   <block id="50affd6ad4d0230c729736816aaa8a7f" category="paragraph">Você deve obter um arquivo de licença NetApp para fazer upload se o Console não tiver acesso à Internet (instalações em modo privado).</block>
   <block id="57722f38f0769837013f699d7a50ea2f" category="paragraph">Ao adquirir uma licença de um representante de vendas da NetApp , você recebe um e-mail contendo o número de série e os detalhes do licenciamento.  Use o número de série para obter o arquivo de licença caso as licenças não apareçam automaticamente no Console.</block>
   <block id="01b303f7b3ef03f12696877f4c3e3aa7" category="list-text">Encontre o ID da sua conta do Console:</block>
-  <block id="3a22d72e96eaed671b6481401ea5678f" category="inline-image-macro">O ícone de configurações é exibido no canto superior direito do console web.</block>
-  <block id="fe492bd792914d6a6a736f1771046149" category="list-text">No canto superior direito do Console, selecione<block ref="598b4690da54e99b9c3d3ed3a0e90044" category="inline-image-macro-rx" type="image"></block> &gt; *Gerenciamento de Identidade e Acesso*.</block>
   <block id="3bcef3f6238058ae825d608e1557c538" category="list-text">Na página Organização, procure o ID da sua conta e copie-o.</block>
   <block id="4eab72b3176dbce57d106f22b3eae44a" category="paragraph">Se nenhuma ID de conta estiver listada e você tiver apenas uma ID de organização, copie os primeiros oito caracteres da ID da organização e anexe-os a *account-*</block>
   <block id="73d422631f1acfc181e143e47ab93172" category="paragraph">Por exemplo, se esta for a ID da sua organização:</block>
@@ -76,8 +73,6 @@
   <block id="a2aa4487721a3b63f1893d33bdb67c28" category="paragraph">A BlueXP digital wallet agora permite que você configure suas assinaturas para credenciais de provedores.  Normalmente, você faz isso quando assina pela primeira vez uma assinatura do Marketplace ou um contrato anual.  Anteriormente, a alteração das credenciais da assinatura só podia ser feita na página Credenciais.</block>
   <block id="175fca0ca5f306258c490378dc2367db" category="section-title">Associando assinaturas a organizações</block>
   <block id="a5f7678a307b711643d239d80564147c" category="paragraph">Agora você pode atualizar a organização à qual uma assinatura está associada diretamente da carteira digital.</block>
-  <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">Gerenciando licenças do Cloud Volume ONTAP</block>
-  <block id="0bc14678dfe9cde6019256774c92b34e" category="paragraph">Agora você gerencia as licenças do Cloud Volumes ONTAP por meio da página inicial ou da aba *Licenças diretas*.  Use a aba *Assinaturas do Marketplace* para visualizar as informações da sua assinatura.</block>
   <block id="626a42c4b175379d9d0e723ada0cf740" category="doc">Capacidade de remover assinaturas</block>
   <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">Agora você pode remover assinaturas da carteira digital caso tenha cancelado a assinatura delas.</block>
   <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">Exibir capacidade consumida para assinaturas do Marketplace</block>
@@ -214,14 +209,12 @@
   <block id="0413b8d744f898335195f39542d7ebc0" category="list-text">Personalize as colunas mostradas na tabela.  Você pode adicionar e remover colunas da tabela selecionando o ícone *Coluna* para indicar quais colunas você deseja mostrar ou ocultar.</block>
   <block id="57cba9caf80ab7bb6590dd12a1c40e9a" category="list-text">Expanda qualquer linha para ver detalhes sobre o que a assinatura ou licença inclui, capacidade adquirida e termos.</block>
   <block id="9243d7dd2d44fbffa034fd50ceb6daeb" category="list-text">Use o menu de ações para gerenciar uma licença ou assinatura específica, como atualizar uma licença ou associar uma assinatura a uma organização diferente.</block>
-  <block id="50d836849f90d9b3c57e6f88060c361e" category="paragraph">Você não pode adicionar novas licenças ou assinaturas na página *Visão geral* para um serviço específico.  Você só pode adicionar licenças ou assinaturas na aba *Licenças diretas* ou na aba *Assinaturas do Marketplace*, respectivamente.</block>
   <block id="ca23b039c5d1d583cc53022c31a54485" category="inline-link-macro">Saiba mais sobre como gerenciar licenças.</block>
   <block id="4b2167e14a21898c791009b50b46ec9e" category="inline-link-macro">Saiba mais sobre como gerenciar assinaturas.</block>
   <block id="fbd2684546a6cae5f9a894684eaa9c6a" category="section-title">Resolver problemas de licença ou assinatura</block>
   <block id="b082a603fd1e4f128d09f1041b260d65" category="list-text">Na página *Requer ação*, selecione a guia *Licenças* ou a guia *Assinaturas*.</block>
   <block id="4b394fc77dc85e2d296bba38de906efe" category="list-text">Use o menu de ações para resolver o problema.</block>
   <block id="1827ef91dcbc868f9c589f010df6effd" category="summary">Gerencie suas licenças baseadas em capacidade no Console para garantir que sua conta NetApp tenha capacidade suficiente para seus sistemas Cloud Volumes ONTAP .</block>
-  <block id="43c4357f2e2861af46d95bae9c7873e1" category="doc">Gerenciar licenças do Cloud Volume ONTAP baseadas em capacidade</block>
   <block id="2eb14dc3edd9fb392b8095df85f2f222" category="paragraph">Gerencie suas licenças baseadas em capacidade no NetApp Console para garantir que sua conta NetApp tenha capacidade suficiente para seus sistemas Cloud Volumes ONTAP .</block>
   <block id="93ed65a89f306426be7980ddc22595e8" category="paragraph">_Licenças baseadas em capacidade_ permitem que você pague pelo Cloud Volumes ONTAP por TiB de capacidade.</block>
   <block id="96a603641f48a14047d20b26a1cfeefa" category="paragraph">Você pode gerenciar licenças do Cloud Volumes ONTAP baseadas em capacidade no NetApp Console.</block>
@@ -311,9 +304,7 @@
   <block id="f4c2ce2a853a74c3742ccc54482c074e" category="list-text">Selecione *Relatório de uso*.</block>
   <block id="23e918e9f1c9f1bb5769dcc236489de2" category="paragraph">O relatório de uso é baixado.</block>
   <block id="05655bb3cbd3604d6c71a1db823ad94f" category="list-text">Abra o arquivo baixado para acessar os relatórios.</block>
-  <block id="99368e41fe86f03ceb9c0b049772ef29" category="summary">Gerencie licenças que você comprou diretamente da NetApp (BYOL) para uso com serviços de dados da NetApp .  Você pode visualizar a capacidade de licença usada, quanta capacidade livre ainda resta e verá notificações se atingir o limite de capacidade ou a data de expiração.</block>
   <block id="0b8de14fb3434085b0be4b2778f365e0" category="doc">Gerenciar licenças para serviços de dados NetApp</block>
-  <block id="655a48b4a07bad11b97ddb1f7de8b150" category="paragraph">Você pode gerenciar licenças adquiridas diretamente da NetApp (BYOL) para uso com serviços de dados da NetApp , incluindo o Cloud Volumes ONTAP.  Você pode visualizar a capacidade de licença usada, quanta capacidade livre ainda resta e verá notificações quando atingir o limite de capacidade ou a data de expiração.</block>
   <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link-macro">Saiba mais sobre o painel Visão geral</block>
   <block id="2ef1ddd95077dddfd70d5ab07187d1f8" category="admonition">A página *Licenças diretas* lista todas as licenças.  Se você quiser detalhes da licença para um serviço de dados específico, use os blocos de serviço de dados no painel *Visão geral*. <block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> .</block>
   <block id="9733849463a86c6a043ab58c8ddf1ac4" category="paragraph">As instruções nesta página fornecem informações que se aplicam a cada serviço.  Para obter informações mais específicas sobre o licenciamento desses serviços, consulte as seguintes páginas:</block>
@@ -437,10 +428,7 @@
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="paragraph-title">Links relacionados</block>
   <block id="90df487d076cd9295a7192268b4439ee" category="inline-link-macro">Fim da disponibilidade de licenças baseadas em nós</block>
   <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link-macro">Converter licenças baseadas em nó em licenças baseadas em capacidade</block>
-  <block id="cb90b48918ed9cd8ea355c04c171177b" category="paragraph">link:<block ref="7f9a8649ca2d86db235ba56502d14f92" category="inline-link-macro-rx"></block> <block ref="431f655d5a9ac309b561fc62a4c619ea" category="inline-link-macro-rx"></block></block>
-  <block id="8d90649cbc48862e96a3f1f139e803fa" category="summary">Veja os detalhes do contrato para cada um dos seus clusters ONTAP locais.  Se você ainda não descobriu um cluster no Console, também é possível descobri-lo.</block>
   <block id="7b157739a85d3d5c67c903118518835e" category="doc">Gerenciar licenças para ONTAP local</block>
-  <block id="712aeceaab91f33fd5739a8bbd6738fd" category="paragraph">Você pode visualizar detalhes do contrato para cada um dos seus clusters ONTAP locais no Console.  Se você não descobriu um cluster, você também pode descobri-los.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Antes de começar</block>
   <block id="857f422578a1e03dfc3a054866eabaeb" category="paragraph">O Console exibe detalhes sobre clusters ONTAP locais que você descobriu como sistemas ou que estão associados a uma conta do NetApp Support Site que você adicionou ao Console.</block>
   <block id="422bab6ebf30e7a3f981f61427aaba19" category="inline-link">Aprenda como descobrir um cluster ONTAP local</block>
@@ -478,7 +466,6 @@
   <block id="eddabc606d42f919a6957cf8c062b45b" category="inline-link-macro">Validação de permissões do comprador</block>
   <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
   <block id="01fe1bcb4f23578a5739afabaf15081c" category="paragraph">É necessário concluir a atribuição da assinatura no Console para ativar a compra e aplicar o preço com desconto.</block>
-  <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">Você deve concluir todas as etapas para ativar sua oferta privada. Pular etapas pode resultar em erros de cobrança. Aceitar e ativar a oferta várias vezes resulta em cobrança dupla.</block>
   <block id="3aa206f6a7574e314eb4973a2b96b331" category="list-text">Usando políticas gerenciadas pela AWS: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* ou *AWSMarketplaceFullAccess*</block>
   <block id="bc5572c241330df8ef51ced4284b0bdf" category="list-text">Usando políticas de IAM personalizadas:<block ref="ff04429efaed7625c69c6d08008313b5" prefix=" " category="inline-code"></block> e<block ref="326720e7bae8966d6ca9815f71034380" prefix=" " category="inline-code"></block></block>
   <block id="e0d6be37107f0e0cac8ae690935c3953" category="list-text">Você será redirecionado ao AWS Marketplace para visualizar a oferta privada.</block>
@@ -514,7 +501,6 @@
   <block id="e52dafa1a46b15a6c93d8cc9b48c0590" category="paragraph">Uma assinatura do Azure pode ser associada a apenas uma assinatura do Marketplace. Se quiser usar duas assinaturas diferentes do Marketplace para cargas de trabalho na mesma assinatura do Azure, você deverá criar duas contas de Console separadas, uma para cada assinatura.  Se você tiver várias instâncias do Cloud Volumes ONTAP e quiser dividir o faturamento entre diferentes assinaturas, crie contas de console separadas para cada assinatura.</block>
   <block id="47f26de5d5f809041d484473468f9e1e" category="paragraph">Você deve concluir todas as etapas para aceitar e ativar sua oferta privada. Pular etapas pode resultar em problemas de ativação ou cobrança dupla.</block>
   <block id="5b91f544615def8157e9739a509448c2" category="paragraph">Se você notar discrepâncias nos termos, preços ou detalhes da oferta, ou se não tiver certeza de qual oferta aceitar, não aceite a oferta. Entre em contato com sua equipe de vendas da NetApp .</block>
-  <block id="8894c60d409fc720e1cb540f53b239d5" category="paragraph">Aceitar e ativar a oferta várias vezes resulta em cobrança dupla.</block>
   <block id="b8d22f94e23c3841d89314fa73eee281" category="list-text">Pesquise ou selecione *Marketplace* nos serviços do Azure.</block>
   <block id="d6d5f4c87a78b99fabcaa4703996f9f1" category="list-text">Valide se os *detalhes do plano*, *prazo* e *preço* estão corretos.</block>
   <block id="2e875515d0c4ffc7b932a081dce75482" category="list-text">Se os detalhes estiverem incorretos, não assine. Entre em contato com a equipe de vendas da NetApp para corrigir a oferta.</block>
@@ -604,24 +590,16 @@
   <block id="ca35b157a89bbc8ba6a6d0d4692fe2fb" category="paragraph">Você pode limitar o uso da assinatura a uma organização específica ou compartilhar a assinatura entre várias organizações.</block>
   <block id="bda5c6e4132d7f1bfcaa387aa9bcb6ec" category="paragraph">Você deve ter a função de administrador da organização para associar uma assinatura a uma organização.</block>
   <block id="c53adc94271638b800aab67861b845fc" category="admonition">O Console oferece suporte ao Gerenciamento de Identidade e Acesso (IAM) no modo padrão, que usa organizações para gerenciar usuários e recursos.  Se estiver usando o Console no modo privado ou restrito, use uma _conta_ do Console para gerenciar usuários e recursos, incluindo assinaturas.</block>
-  <block id="7d3a30fe2668092a63decc90304c25c5" category="list-text">Na caixa de diálogo *Associar a assinatura*, selecione uma ou mais organizações para associar à assinatura.</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">Selecione *Associar*.</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">Exibir credenciais associadas a uma assinatura</block>
   <block id="002d431b6337f0842f2c8f341268a2ad" category="paragraph">Você pode visualizar as credenciais de uma assinatura específica na página *Assinaturas do Marketplace*.  Isso permite que você verifique como a assinatura é cobrada.  Como as credenciais estão vinculadas ao agente que você está usando, você deve selecionar o agente associado à assinatura que deseja visualizar.</block>
   <block id="305572f28aa8e98572395f6c22011dee" category="admonition">Use o menu suspenso Agente na barra de navegação superior para alternar agentes, se necessário.</block>
-  <block id="54a532ed5b57b0751dc3bc4333f738c5" category="list-text">Na linha que contém a assinatura cujas credenciais você deseja visualizar, selecione Exibir.  Se várias credenciais estiverem associadas a uma assinatura, nenhuma credencial poderá ser exibida e você será direcionado a selecionar um agente diferente.</block>
   <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">Desconfigurar uma assinatura</block>
   <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">Antes de remover uma assinatura, você deve desconfigurá-la.  Isso limpa todos os dados e configurações associados.</block>
   <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">Siga as instruções para remover ou redefinir quaisquer configurações ou dados associados.</block>
   <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">Aguarde até que o status seja atualizado para *Não configurado*.</block>
   <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">Remover uma assinatura</block>
-  <block id="78fa7824e76cd8274cf9d050c0ce8cc1" category="paragraph">Quando você cancela a assinatura de um provedor de nuvem (AWS, Google Cloud ou Azure), o Console mostra o status da assinatura como *Cancelado*.</block>
-  <block id="cd8d98e20f3508cb708db6a30ce5c9dc" category="paragraph">Você pode remover assinaturas *Canceladas* do Console para que elas não apareçam mais.</block>
-  <block id="091ca7aa552eef4b6b760ed64babc1bc" category="paragraph">Você só pode remover assinaturas que estejam *Canceladas* e *Não configuradas*.  Todas as configurações, dados e configurações relacionadas devem ser limpos ou redefinidos antes da remoção.</block>
-  <block id="1cdf55c4f07b4e6c150fa4314c119aa5" category="paragraph">Se a assinatura ainda estiver configurada, a opção *Remover* não será exibida.  Para disponibilizar a opção, desconfigure a assinatura limpando todas as configurações, serviços ou dados associados.</block>
   <block id="f718d4efc769e352af879333b97563c1" category="list-text">Na linha da assinatura que você deseja remover, abra o menu de ação e selecione *Remover*.</block>
-  <block id="d945569d4f85da82c21c1eedda61f245" category="paragraph">Você só pode remover assinaturas com status *Cancelado* e *Não configurado*.</block>
-  <block id="328bc94c6a18dd3a8b5eacb533435091" category="list-text">Na caixa de diálogo *Remover assinatura*, confirme que deseja remover a assinatura.</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">Antes de abrir um caso de suporte com o suporte técnico da NetApp , você precisa adicionar uma conta do Site de Suporte da NetApp ao NetApp Console e depois se registrar para obter suporte.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Registre-se para obter suporte</block>
   <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">O registro de suporte é necessário para receber suporte técnico específico para o NetApp Console e suas soluções de armazenamento e serviços de dados. O registro de suporte também é necessário para habilitar fluxos de trabalho importantes para sistemas Cloud Volumes ONTAP .</block>
@@ -760,12 +738,10 @@
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">Gerenciar assinaturas do Marketplace</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conhecimento e suporte</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gerenciar preferências de faturamento</block>
-  <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Agora você pode configurar e gerenciar as *preferências de faturamento* diretamente no NetApp Console.  Essa melhoria permite que os administradores definam e visualizem como o uso da capacidade, as renovações e os custos são cobrados em licenças diretas da NetApp , assinaturas do marketplace de nuvem e no contrato Keystone .</block>
   <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">Documentação de preferências de faturamento</block>
   <block id="4b843d9eef057518b9ed64591ad8cc70" category="paragraph">As preferências de faturamento controlam como o NetApp Console lida com pagamentos, faturas e renovações de suas licenças e assinaturas.  Você define as preferências em um dos dois níveis:</block>
   <block id="717a296215af1e0b2af5244b76c74280" category="list-text">*Global* — aplica-se a licenças diretas, assinaturas do marketplace e assinaturas Keystone .</block>
   <block id="0d92132a500b2b420133d918adb91673" category="list-text">*Por assinatura* — aplica-se somente a um mercado específico ou contrato de licença direta.</block>
-  <block id="65a359771032279b1dc8643b4bd87e87" category="paragraph">A fonte de faturamento pode ser a seguinte:</block>
   <block id="fc7df403728dc99ac0c868da1b409680" category="list-text">*Assinaturas do Marketplace* — A cobrança é feita através do AWS Marketplace, Azure Marketplace ou Google Cloud Marketplace.  Você pode escolher a conta de faturamento, a região e as opções de renovação oferecidas pelo marketplace de nuvem.</block>
   <block id="f9e1a1e0db42fa8cf2bef3c509a09c09" category="list-text">*Licenças diretas* — A cobrança é feita através da NetApp.  Você gerencia chaves de licença, contatos de faturamento e renovação automática no NetApp Console.</block>
   <block id="bc27ccb754d1eb812e4d84c6aa69941b" category="list-text">*Assinaturas Keystone * — A cobrança é feita através do seu contrato com a Keystone .  Você gerencia os destinatários das faturas e as etiquetas do centro de custos no NetApp Console.</block>
@@ -842,12 +818,10 @@
   <block id="fb76b0a0d9556954b60d57166a9a58ff" category="list-text">Abra as *Preferências de faturamento*.</block>
   <block id="f8947715618c321a3794e787f7aecd94" category="list-text">Desative a *Configuração personalizada do CVO*.</block>
   <block id="f44a159781425e53cf2e7e568e18930f" category="list-text">Quando solicitado, confirme que deseja retornar à configuração padrão.</block>
-  <block id="07b5c65992e18ea1f96d4431ed697e21" category="list-text">Após associar a assinatura, navegue até a aba **Preferências de faturamento** e selecione-a.</block>
   <block id="c405cb4ee0a4475b96f30fb0962daa3e" category="list-text">Analise as opções de assinatura do marketplace.</block>
   <block id="c0ab08cc5546a8c99ef8010e4cb766a0" category="list-text">Selecione a assinatura do marketplace que deseja faturar.  Isso só se aplica quando há mais de uma opção.</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 de novembro de 2025</block>
   <block id="8db289a22d511fb89896cd05e3039ca2" category="sidebar">Saiba mais sobre as preferências de faturamento.</block>
-  <block id="0b4efcd7fda8e806d38bca8ddb9e57b9" category="list-text">No menu do NetApp Console , selecione *Administração &gt; Licenses and subscriptions* e, em seguida, selecione a guia *Licenças diretas*.</block>
   <block id="9ef810f213faea9695f8494f68387049" category="list-text">No menu do NetApp Console , selecione *Administração &gt; Licenses and subscriptions*.</block>
   <block id="9b2143cc5779100e7a55ef93f5906f84" category="list-text">No NetApp Console, selecione *Administração &gt; Licenses and subscriptions*.</block>
   <block id="42855d09afacbcf14c2e402fe229af93" category="list-text">*Projeto em nuvem*</block>
@@ -892,7 +866,6 @@
   <block id="11732b5b63a7e4369465ad45e7b2f8d1" category="list-text">**Licença direta** — NetApp-licença gerenciada usada antes da capacidade do marketplace.</block>
   <block id="ad32f0863d6f14e2d9551805e23ae323" category="list-text">**Hyperscaler** — AWS, Azure ou provedor Google Cloud.</block>
   <block id="e2499bfbea70502da5b64d43bb910c91" category="list-text">**Caixa de diálogo de confirmação de alterações** — Aparece antes de aplicar atualizações para evitar alterações acidentais na fatura.</block>
-  <block id="3b2f681409f2a10e7041cea70815ccde" category="paragraph">| Cenário | Opção de faturamento recomendada | |-----------|-----------------------------| | Usando capacidade comprada da NetApp | Licenças da NetApp primeiro | | Usando somente contratos do marketplace | Somente assinaturas do marketplace | | Faturando vários projetos em um único provedor de nuvem | Habilitar Custom CVO configuration | | Revertendo para o faturamento padrão | Desabilitar Custom CVO configuration |</block>
   <block id="1f53fda1033a98943930c3ec2b8523bf" category="list-text">*Assinaturas de marketplace* correspondem a contratos de marketplace de nuvem (AWS, Azure ou Google Cloud) em que as cobranças de uso são feitas por meio de uma conta de provedor de nuvem</block>
   <block id="f0d4e9a62cff20e37439e08114cc3a6e" category="list-text">Habilite o mapeamento avançado de instâncias do Cloud Volumes ONTAP para assinaturas do marketplace</block>
   <block id="fc8cec049cd357fc6adde025d9d97c4d" category="list-text">*Custom Cloud Volumes ONTAP configuration* — Permite mapear várias assinaturas do marketplace para um provedor de nuvem. Isso pode ser útil quando diferentes unidades de negócios ou projetos exigem contas de faturamento distintas dentro do mesmo ambiente de nuvem.</block>
@@ -918,7 +891,6 @@
   <block id="5792b2f64acac4a03d52863e503bb06e" category="list-text"><block ref="5792b2f64acac4a03d52863e503bb06e" category="inline-link-rx"></block></block>
   <block id="df8952271e7ef38725532907301bdd0b" category="list-text"><block ref="df8952271e7ef38725532907301bdd0b" category="inline-link-rx"></block></block>
   <block id="691e9010d46bcb06693d90df5c955334" category="paragraph">O número de licenças que você pode adquirir para um sistema de nó único ou par de HA é ilimitado.</block>
-  <block id="eab5a9beec18731066e3d914b1b777d6" category="list-text">Repita estas etapas conforme necessário, caso haja várias assinaturas em diferentes provedores de nuvem.</block>
   <block id="bd4fe280572cb5715cd19a1acca358c1" category="list-text">Essa opção de substituição está limitada a uma única organização Console.</block>
   <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
@@ -937,7 +909,6 @@
   <block id="933ff4ba5601cbcc7feb8a2d4fb2a9bf" category="paragraph">Por exemplo, as preferências de faturamento global podem unificar sua lista de contatos de faturamento para que todos os serviços compartilhem um único administrador de faturamento. Você também pode usar tags de centro de custo para alinhar o uso entre departamentos ou regiões e habilitar a renovação automática para evitar interrupções de serviço. Novas implantações do Cloud Volumes ONTAP herdam automaticamente o modo de faturamento que você define aqui, o que mantém o modelo de chargeback da sua organização consistente à medida que novos sistemas são adicionados.</block>
   <block id="54fcef087d6b48c92dbbb8ac72f593c0" category="paragraph">Os campos do Marketplace descrevem contratos originados de um provedor de nuvem, como AWS, Azure ou Google Cloud. Esses campos definem como o NetApp Console conecta suas assinaturas com as informações de faturamento armazenadas no marketplace do provedor. Eles também controlam como as renovações, as atribuições regionais e as contas de faturamento são gerenciadas.</block>
   <block id="e5081b7905ad864689ed6d79eec0b12c" category="paragraph">Você pode escolher entre os modos de faturamento dependendo da estratégia de compras da sua organização:</block>
-  <block id="595cce1a707876efb5af81547b8c45f7" category="paragraph">O painel *Visão geral* no Console ajuda você a monitorar os status de suas licenças e assinaturas para garantir que você possa gerenciar custos e manter o serviço à medida que as assinaturas se aproximam das datas de vencimento ou dos limites de capacidade.</block>
   <block id="f219c0a9bbd89956963c78f2767baad1" category="paragraph">Você pode visualizar informações específicas sobre licenças e assinaturas de cada um dos seus serviços de dados (incluindo Cloud Volumes ONTAP).</block>
   <block id="48b78d4263fb260e1302eea43ab97297" category="paragraph">O painel Licenses and subscriptions alerta sobre limites de capacidade ou expirações iminentes, solicitando que você tome as medidas necessárias.</block>
   <block id="ebd121972998fd8daff69f97ab69a917" category="paragraph">O painel *Visão geral* fornece detalhes sobre os seguintes serviços:</block>
@@ -945,12 +916,10 @@
   <block id="b47325596a22c5a8ba674a9a5e213d83" category="list-text">No bloco *Ação necessária*, selecione *Resolver* para visualizar os problemas que precisam ser ajustados. Se *Resolver* não for exibido, não há problemas que exijam ação.</block>
   <block id="56ed7edfc768b93b25480e9f92ff2bcc" category="paragraph">Você pode configurar e gerenciar as preferências de faturamento no NetApp Console para controlar como o uso de capacidade, as renovações e as faturas são aplicadas às contas da sua organização. As preferências de faturamento determinam se as cobranças de uso provêm de NetApp licenses, contratos do marketplace de nuvem ou Keystone agreements.</block>
   <block id="c59e51e49c60bf63e80dd12445ef4455" category="admonition">Alterar o modo de faturamento redistribui a forma como as taxas de serviço são aplicadas. Novas instâncias do Cloud Volumes ONTAP herdam automaticamente a configuração selecionada.</block>
-  <block id="1da8061e8298048c27ede43db8d41efb" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::task-view-license-status.adoc[]</block>
   <block id="b3590df4b69c4ddf7017e6977baebe49" category="list-text">Para a assinatura que você deseja vincular, selecione <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> e selecione *Vincular*.</block>
   <block id="665103db45058514d7e3b032c990783d" category="list-text">Para a assinatura cuja capacidade você deseja ajustar, selecione <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> e selecione *Ver detalhes e editar*.</block>
   <block id="f638b98047aa1e2c9642d2de1bcdd0d0" category="list-text">Desça a página, insira quaisquer detalhes adicionais para a solicitação e selecione *Enviar*.</block>
   <block id="dc96e19fba7ac18b79e69398a4792825" category="list-text">Para a assinatura que deseja desvincular, selecione <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> e selecione *Desvincular*.</block>
-  <block id="1d64231f78e22c21d456a692b4cbdb65" category="list-text">Selecione o link de ativação da oferta privada fornecido pela sua equipe de vendas da NetApp. O link deve ser semelhante ao seguinte:<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
   <block id="31308c520ca0fc42a2dcafc9666c6d32" category="list-text">Para uso sob demanda, selecione *Assinar*.</block>
   <block id="5b365cd4a0e598c771835c8d4ec04551" category="list-text">Para propostas contratuais, insira o número de unidades para cada serviço e selecione *Criar contrato*.</block>
   <block id="0629896d92c6d3e12b70728fbefe3efb" category="list-text">Selecione *Configurar sua conta*. Isso redireciona para o NetApp Console para configurar a assinatura.</block>
@@ -973,4 +942,45 @@
   <block id="69c9db700e88e13fa6be2001b38dfd08" category="list-text">Na linha da assinatura que você deseja associar, abra o menu de ações e selecione *Associar*.</block>
   <block id="b3cdc96c2b7de37edaa1cdfe112925ae" category="list-text">Na linha da assinatura que você deseja desconfigurar, selecione o menu de ações e, em seguida, *Unconfigure*.</block>
   <block id="b36ceccfff88f5d9c684c4fec0f54c19" category="paragraph">A Carteira Digital agora mostra a capacidade total consumida em sua conta e a capacidade consumida por pacote de licença. Isso pode ajudá-lo a entender como você está sendo cobrado e se precisa adquirir capacidade adicional.</block>
+  <block id="8af1ad3469dad38ef46da37595e3b758" category="inline-link-macro">Saiba mais sobre Licenses and subscriptions funções para o NetApp Console</block>
+  <block id="1ccb85040042290f711464fbb5e06609" category="paragraph">*Função de console necessária* Para executar esta tarefa, você precisa da função de administrador de Licenses and subscriptions<block ref="f7bfd1d1e66654a9d76ee2fffeede42a" category="inline-link-macro-rx"></block>.</block>
+  <block id="458dbbe908598c035d40c809863c56e8" category="paragraph">As informações de licença são exibidas automaticamente na seção **Licenses and subscriptions** se a conta do NetApp Console associada à licença também for uma conta do NetApp Support Site. Se você usou uma conta do Console que não está associada à sua conta do NSS, será necessário adicionar uma licença manualmente.</block>
+  <block id="e8287c7448cfd8625359581b1cb6deb2" category="list-text">Selecione a guia *Licenças diretas*.</block>
+  <block id="9c3e0ea557f19f47fe25dfd585312f43" category="list-text">No menu de navegação do Console, selecione *Administração* &gt; *Identidade e acesso*.</block>
+  <block id="b33d71b64d47a9f0ce606e73ae1e07dd" category="section-title">Gerenciando licenças do Cloud Volumes ONTAP</block>
+  <block id="9429e7a2e486548a79c3122d6c6e17e5" category="paragraph">Agora você gerencia as licenças do Cloud Volumes ONTAP pela página inicial ou pela aba *Licenças diretas*. Use a aba *Assinaturas do Marketplace* para visualizar as informações da sua assinatura.</block>
+  <block id="26d95a9677f28d9a6e340c69085c4cdb" category="paragraph">Agora você pode configurar e gerenciar as *Preferências de Faturamento* diretamente no NetApp Console. Essa melhoria permite que os administradores definam e visualizem como o uso de capacidade, as renovações e os custos são cobrados em licenças diretas da NetApp, assinaturas do marketplace de nuvem e contratos Keystone.</block>
+  <block id="994c93e3e8dbb5133d0b3a075bdac953" category="summary">Licenses and subscriptions permite gerenciar e monitorar as licenças do NetApp Console, as assinaturas do marketplace do NetApp e o NetApp Keystone.</block>
+  <block id="abcc786cf14d5e9fe478edfb4649ff58" category="paragraph">As fontes de faturamento podem ser:</block>
+  <block id="4034ad2bb1e8e26399eef6531403fda6" category="cell">Utilizando a capacidade adquirida da NetApp</block>
+  <block id="3c214db1e9b5df7d24325803b44aa5aa" category="cell">NetApp licenses primeiro</block>
+  <block id="2cd14b556325088d14b61eb426ad2d2a" category="cell">Utilizando apenas contratos de marketplace</block>
+  <block id="f34a8dd98169c2ffb5c475fca10bf726" category="cell">Somente para assinaturas do Marketplace</block>
+  <block id="cd9f8fe965cb669b5f7780d601f2a068" category="cell">Faturamento de vários projetos em um único provedor de nuvem</block>
+  <block id="4684cf5eed11e2cbe98bbf41e64baab1" category="cell">Ativar configuração CVO personalizada</block>
+  <block id="8231c7512d38624b6c73e0353c9b018c" category="cell">Retornando à cobrança padrão</block>
+  <block id="75b55a88e71b87a8f2223b882c8fdb60" category="cell">Desativar configuração CVO personalizada</block>
+  <block id="64b2682858b322421bcf1271f43d5958" category="summary">Veja os detalhes do contrato para cada um dos seus clusters ONTAP locais.</block>
+  <block id="3c0e7e5eacb6d93fc4a6e237d9dc57c5" category="paragraph">No NetApp Console, você pode descobrir um cluster ONTAP e visualizar os detalhes do contrato para cada cluster ONTAP local que você descobriu.</block>
+  <block id="c874b53d36cb039f81fc4117963fe03f" category="paragraph">O painel *Visão geral* no NetApp Console ajuda você a monitorar o status de suas licenças e assinaturas para garantir que você possa gerenciar custos e manter o serviço à medida que as assinaturas se aproximam das datas de vencimento ou dos limites de capacidade.</block>
+  <block id="bda8ae7ab8a8500998773e4eb67456f7" category="paragraph">Não é possível adicionar novas licenças ou assinaturas na página *Visão geral* de um serviço específico. Você só pode adicionar licenças na aba *Licenças diretas* ou assinaturas na aba *Assinaturas do Marketplace*.</block>
+  <block id="cd8b0613e16e6b474b0e97a2db9c08ee" category="doc">Gerencie licenças do Cloud Volumes ONTAP com base na capacidade</block>
+  <block id="7a65ea1273f42ee6be596842e800d703" category="summary">Gerencie as licenças que você comprou diretamente da NetApp (BYOL) para uso com os serviços de dados da NetApp. Você pode visualizar a capacidade de licença utilizada, o uso da capacidade e os próximos vencimentos.</block>
+  <block id="bdcdbfa9e9107af10507b1ac43ba121f" category="paragraph">Você pode gerenciar as licenças que comprou diretamente da NetApp (BYOL) para uso com os serviços de dados da NetApp, incluindo Cloud Volumes ONTAP. Você pode visualizar a capacidade de licença utilizada, o uso da capacidade e os próximos vencimentos.</block>
+  <block id="891135e9b9da3df96fe5c02cfac5295d" category="list-text"><block ref="891135e9b9da3df96fe5c02cfac5295d" category="inline-link-rx"></block></block>
+  <block id="5e5b6fbbd6a3b4edf3913541e4fecf17" category="list-text"><block ref="5e5b6fbbd6a3b4edf3913541e4fecf17" category="inline-link-rx"></block></block>
+  <block id="e99886a561ecbfcd7f4c44b5b12c8c64" category="admonition">Você precisa concluir todas as etapas para ativar sua oferta exclusiva. Ignorar etapas pode resultar em erros de cobrança. Aceitar e ativar a oferta várias vezes pode resultar em cobrança duplicada.</block>
+  <block id="b7ef3af051989ebe8c7a18646c2ca742" category="list-text">Selecione o link de ativação da oferta privada fornecido pela sua equipe de vendas da NetApp.</block>
+  <block id="80eed28e388792630d573d307ce2976d" category="paragraph">O link deve ser semelhante ao seguinte:<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
+  <block id="eea302b35a259b47fb27d8229cf7ed76" category="paragraph">Caso não tenha recebido o link, visualize as ofertas privadas no console do AWS Marketplace. As seguintes permissões são necessárias:</block>
+  <block id="7d6f61a54be5b706ac586f3cf874b554" category="list-text">Após associar a assinatura, selecione a guia **Preferências de faturamento**.</block>
+  <block id="c8420f29be12c698d2e9909d0dba37f2" category="list-text">Repita esses passos conforme necessário, caso haja várias assinaturas em diferentes provedores de nuvem.</block>
+  <block id="e99d4b8260f7861bc82160afa31c13ae" category="paragraph">Aceitar e ativar a oferta várias vezes pode resultar em cobrança dupla.</block>
+  <block id="6568694a02e411d62f8f3005cb962b0f" category="paragraph">Para obter mais informações sobre assinaturas de marketplace e faturamento direto de licenças, consulte <block ref="f883f2f955e02dbe428878251b1a2bad" category="inline-link-macro-rx"></block>.</block>
+  <block id="c51b76251f739d026a73088b68f822cc" category="list-text">Na caixa de diálogo *Associar a assinatura*, selecione as organizações do Console que você deseja associar à assinatura.</block>
+  <block id="e1a9b86a11b8dc3ce019684338b03569" category="list-text">Na linha que contém a assinatura cujas credenciais você deseja visualizar, selecione *Visualizar*. Se várias credenciais estiverem associadas a uma assinatura, nenhuma credencial poderá ser exibida e você será direcionado para selecionar um agente diferente.</block>
+  <block id="54a21b5d0aef1783b6a04fe3d5b2a57b" category="paragraph">Ao cancelar uma assinatura no seu provedor de nuvem (AWS, Google Cloud ou Azure), o Console exibe o status da assinatura como *Unsubscribed*. Após cancelar uma assinatura, você também pode removê-la de Licenses and subscriptions.</block>
+  <block id="9475bf1acf4a7e43280f6718d685e866" category="list-text">Você só pode remover assinaturas com o status *Unsubscribed*. Todas as configurações, dados e configurações relacionadas devem ser apagados ou redefinidos antes da remoção.</block>
+  <block id="c4a1705a6991448825c6ef6ad86fa41a" category="paragraph">Se a assinatura ainda estiver configurada, a opção *Remover* não estará disponível.</block>
+  <block id="792b1ad41ebb8947d008af5826897289" category="list-text">Na caixa de diálogo *Remover assinatura*, selecione *Remover* para confirmar que deseja remover a assinatura.</block>
 </blocks>

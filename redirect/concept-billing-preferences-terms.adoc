@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-billing-preferences-terms.html 
 keywords: license, licensing, licenses, subscriptions, 
-summary: As licenças e assinaturas permitem que você gerencie e monitore licenças do NetApp Console , assinaturas do NetApp Marketplace e NetApp Keystone. 
+summary: Licenses and subscriptions permite gerenciar e monitorar as licenças do NetApp Console, as assinaturas do marketplace do NetApp e o NetApp Keystone. 
 ---
 = Termos e definições
 :hardbreaks:
@@ -20,7 +20,7 @@ As preferências de faturamento controlam como o NetApp Console lida com pagamen
 * *Por assinatura* — aplica-se somente a um mercado específico ou contrato de licença direta.
 
 
-A fonte de faturamento pode ser a seguinte:
+As fontes de faturamento podem ser:
 
 * *Assinaturas do Marketplace* — A cobrança é feita através do AWS Marketplace, Azure Marketplace ou Google Cloud Marketplace.  Você pode escolher a conta de faturamento, a região e as opções de renovação oferecidas pelo marketplace de nuvem.
 * *Licenças diretas* — A cobrança é feita através da NetApp.  Você gerencia chaves de licença, contatos de faturamento e renovação automática no NetApp Console.
@@ -75,4 +75,18 @@ As preferências de faturamento permitem: - impor uma única lista de contatos d
 
 == Caminhos de configuração típicos
 
-| Cenário | Opção de faturamento recomendada | |-----------|-----------------------------| | Usando capacidade comprada da NetApp | Licenças da NetApp primeiro | | Usando somente contratos do marketplace | Somente assinaturas do marketplace | | Faturando vários projetos em um único provedor de nuvem | Habilitar Custom CVO configuration | | Revertendo para o faturamento padrão | Desabilitar Custom CVO configuration |
+|===
+| Cenário | Opção de faturamento recomendada |  
+
+
+| Utilizando a capacidade adquirida da NetApp | NetApp licenses primeiro |  
+
+
+| Utilizando apenas contratos de marketplace | Somente para assinaturas do Marketplace |  
+
+
+| Faturamento de vários projetos em um único provedor de nuvem | Ativar configuração CVO personalizada |  
+
+
+| Retornando à cobrança padrão | Desativar configuração CVO personalizada |  
+|===

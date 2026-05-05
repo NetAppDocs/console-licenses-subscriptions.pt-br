@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+*Função de console necessária* Para executar esta tarefa, você precisa da função de administrador de Licenses and subscriptionslink:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Saiba mais sobre Licenses and subscriptions funções para o NetApp Console"^].

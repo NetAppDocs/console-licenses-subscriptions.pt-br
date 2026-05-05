@@ -133,7 +133,7 @@ NOTE: O Console oferece suporte ao Gerenciamento de Identidade e Acesso (IAM) no
 . No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Na linha da assinatura que você deseja associar, abra o menu de ações e selecione *Associar*.
-. Na caixa de diálogo *Associar a assinatura*, selecione uma ou mais organizações para associar à assinatura.
+. Na caixa de diálogo *Associar a assinatura*, selecione as organizações do Console que você deseja associar à assinatura.
 . Selecione *Associar*.
 
 
@@ -149,7 +149,7 @@ NOTE: Use o menu suspenso Agente na barra de navegação superior para alternar 
 .Passos
 . No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
-. Na linha que contém a assinatura cujas credenciais você deseja visualizar, selecione Exibir.  Se várias credenciais estiverem associadas a uma assinatura, nenhuma credencial poderá ser exibida e você será direcionado a selecionar um agente diferente.
+. Na linha que contém a assinatura cujas credenciais você deseja visualizar, selecione *Visualizar*. Se várias credenciais estiverem associadas a uma assinatura, nenhuma credencial poderá ser exibida e você será direcionado para selecionar um agente diferente.
 
 
 
@@ -170,23 +170,18 @@ Antes de remover uma assinatura, você deve desconfigurá-la.  Isso limpa todos 
 
 === Remover uma assinatura
 
-Quando você cancela a assinatura de um provedor de nuvem (AWS, Google Cloud ou Azure), o Console mostra o status da assinatura como *Cancelado*.
+Ao cancelar uma assinatura no seu provedor de nuvem (AWS, Google Cloud ou Azure), o Console exibe o status da assinatura como *Unsubscribed*. Após cancelar uma assinatura, você também pode removê-la de Licenses and subscriptions.
 
-Você pode remover assinaturas *Canceladas* do Console para que elas não apareçam mais.
+.Antes de começar
+* Você só pode remover assinaturas com o status *Unsubscribed*. Todas as configurações, dados e configurações relacionadas devem ser apagados ou redefinidos antes da remoção.
++
+Se a assinatura ainda estiver configurada, a opção *Remover* não estará disponível.
 
-[NOTE]
-====
-Você só pode remover assinaturas que estejam *Canceladas* e *Não configuradas*.  Todas as configurações, dados e configurações relacionadas devem ser limpos ou redefinidos antes da remoção.
 
-Se a assinatura ainda estiver configurada, a opção *Remover* não será exibida.  Para disponibilizar a opção, desconfigure a assinatura limpando todas as configurações, serviços ou dados associados.
 
-====
 .Passos
 . No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Na linha da assinatura que você deseja remover, abra o menu de ação e selecione *Remover*.
-+
-Você só pode remover assinaturas com status *Cancelado* e *Não configurado*.
-
-. Na caixa de diálogo *Remover assinatura*, confirme que deseja remover a assinatura.
+. Na caixa de diálogo *Remover assinatura*, selecione *Remover* para confirmar que deseja remover a assinatura.
 
