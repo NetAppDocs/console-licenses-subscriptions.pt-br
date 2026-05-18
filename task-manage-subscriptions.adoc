@@ -23,6 +23,8 @@ Ao assinar os serviços de dados da NetApp (incluindo o Cloud Volumes ONTAP) no 
 
 NOTE: A página *Assinaturas do Marketplace* lista todas as licenças.  Para obter detalhes da licença de um serviço de dados específico, use os blocos de serviço de dados no painel *Visão geral*. link:task-homepage.html#overview-page["Saiba mais sobre o painel Visão geral"] .
 
+*Função de console necessária* Para executar esta tarefa, você precisa da função de administrador de Licenses and subscriptionslink:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Saiba mais sobre Licenses and subscriptions funções para o NetApp Console"^].
+
 
 
 == Adicionar uma nova assinatura de mercado
@@ -150,20 +152,6 @@ NOTE: Use o menu suspenso Agente na barra de navegação superior para alternar 
 . No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Na linha que contém a assinatura cujas credenciais você deseja visualizar, selecione *Visualizar*. Se várias credenciais estiverem associadas a uma assinatura, nenhuma credencial poderá ser exibida e você será direcionado para selecionar um agente diferente.
-
-
-
-
-=== Desconfigurar uma assinatura
-
-Antes de remover uma assinatura, você deve desconfigurá-la.  Isso limpa todos os dados e configurações associados.
-
-.Passos
-. No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
-. Selecione *Assinaturas do Marketplace*.
-. Na linha da assinatura que você deseja desconfigurar, selecione o menu de ações e, em seguida, *Unconfigure*.
-. Siga as instruções para remover ou redefinir quaisquer configurações ou dados associados.
-. Aguarde até que o status seja atualizado para *Não configurado*.
 
 
 

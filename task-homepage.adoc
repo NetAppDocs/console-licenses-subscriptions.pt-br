@@ -71,6 +71,8 @@ No painel Visão geral, você pode visualizar problemas de licença e assinatura
 . Na página *Requer ação*, selecione a guia *Licenças* ou a guia *Assinaturas*.
 . Use o menu de ações para resolver o problema.
 +
-link:task-manage-data-services-licenses.html["Saiba mais sobre o gerenciamento de licenças"]. link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas"].
+** link:task-manage-data-services-licenses.html["Saiba mais sobre o gerenciamento de licenças"].
+** link:task-manage-subscriptions.html["Saiba mais sobre como gerenciar assinaturas"].
+
 
 

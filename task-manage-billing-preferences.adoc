@@ -17,10 +17,11 @@ summary: Configure as preferências de faturamento no NetApp Console para contro
 Você pode configurar e gerenciar as preferências de faturamento no NetApp Console para controlar como o uso de capacidade, as renovações e as faturas são aplicadas às contas da sua organização. As preferências de faturamento determinam se as cobranças de uso provêm de NetApp licenses, contratos do marketplace de nuvem ou Keystone agreements.
 
 .Antes de começar
-* Você tem acesso à função de *Administrador*.
 * Todas as assinaturas relevantes do marketplace estão vinculadas à sua organização.
 * Você analisou a configuração existente para *licenças e assinaturas*.
 
+
+*Função de console necessária* Para executar esta tarefa, você precisa da função de administrador de Licenses and subscriptionslink:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Saiba mais sobre Licenses and subscriptions funções para o NetApp Console"^].
 
 
 
@@ -39,10 +40,10 @@ Você pode selecionar como o Console aplica as cobranças de uso em diferentes f
 
 . Em *Assinaturas do Marketplace*, selecione a assinatura para cada provedor de nuvem (AWS, Azure, and Google Cloud).
 . Se você utiliza várias assinaturas em um único provedor de nuvem, habilite *Custom CVO configuration*.
-. (Opcional) Atualize os *contatos de faturamento* e os *contatos de notificação*.
-. (Opcional) Insira uma *etiqueta de centro de custo* para associar o faturamento aos códigos contábeis internos.
+. Opcionalmente, atualize os *Contatos de fatura* e os *Contatos de notificação*.
+. Opcionalmente, insira uma *etiqueta de centro de custo* para associar o faturamento aos códigos contábeis internos.
 . Selecione *Salvar alterações*.
-. Quando solicitado, revise a caixa de diálogo de confirmação e selecione *Confirmar*.
+. Quando solicitado, revise a caixa de diálogo de confirmação e selecione *Confirm*.
 
 
 .Resultado
