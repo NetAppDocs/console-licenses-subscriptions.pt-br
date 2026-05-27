@@ -51,14 +51,14 @@ sidebar:
         url: "/concept-billing-preferences.html"
       - title: Gerenciar preferências de faturamento
         url: "/task-manage-billing-preferences.html"
-    - title: Conhecimento e suporte
-      entries:
-      - title: Registre-se para obter suporte
-        url: "/task-support-registration.html"
-      - title: Obter ajuda
-        url: "/task-get-help.html"
-    - title: Avisos legais
-      url: "/legal-notices.html"
+  - title: Conhecimento e suporte
+    entries:
+    - title: Registre-se para obter suporte
+      url: "/task-support-registration.html"
+    - title: Obter ajuda
+      url: "/task-get-help.html"
+  - title: Avisos legais
+    url: "/legal-notices.html"
 product-family:
   name: NetApp Console
   repo: console-family
