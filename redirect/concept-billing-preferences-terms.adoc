@@ -29,12 +29,14 @@ As fontes de faturamento podem ser:
 
 
 
+[[permissions]]
 == Permissões
 
 Você precisa da função de *Administrador da Conta* ou *Administrador de Faturamento* para alterar as preferências de faturamento. Operadores podem visualizar as preferências, mas não podem modificá-las.
 
 
 
+[[set-billing-preferences]]
 == Defina as preferências de faturamento
 
 As preferências de faturamento permitem que você:
@@ -47,10 +49,12 @@ As preferências de faturamento permitem que você:
 
 
 
+[[billing-fields]]
 == Campos de faturamento
 
 
 
+[[marketplace-fields]]
 == Campos do mercado
 
 * *Fornecedor de marketplace* — AWS, Azure ou Google Cloud.
@@ -60,10 +64,12 @@ As preferências de faturamento permitem que você:
 
 
 
+[[billing-options-and-definitions]]
 == Opções e definições de faturamento
 
 
 
+[[terms-and-options]]
 == Termos e opções
 
 * **NetApp licenses first** — Cobrança referente a licenças ativas NetApp. Uso adicional é transferido para o marketplace.
@@ -79,6 +85,7 @@ As preferências de faturamento permitem que você:
 
 
 
+[[typical-configuration-paths]]
 == Caminhos de configuração típicos
 
 |===

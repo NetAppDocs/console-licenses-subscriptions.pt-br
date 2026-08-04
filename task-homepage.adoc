@@ -10,6 +10,8 @@ summary: Obtenha uma visão geral de todas as assinaturas e licenças da sua org
 
 
 
+[[use-the-dashboard-overview]]
+[[overview-page]]
 == Use a visão geral do painel
 
 [role="lead"]
@@ -21,6 +23,7 @@ O painel Licenses and subscriptions alerta sobre limites de capacidade ou expira
 
 
 
+[[view-details-about-a-specific-data-service]]
 === Ver detalhes sobre um serviço de dados específico
 
 O painel *Visão geral* fornece detalhes sobre os seguintes serviços:
@@ -61,6 +64,7 @@ link:task-manage-data-services-licenses.html["Saiba mais sobre como gerenciar li
 
 
 
+[[resolve-license-or-subscription-issues]]
 === Resolver problemas de licença ou assinatura
 
 No painel Visão geral, você pode visualizar problemas de licença e assinatura que precisam ser resolvidos. Esses problemas incluem licenças e assinaturas que estão expirando ou atingindo a capacidade.

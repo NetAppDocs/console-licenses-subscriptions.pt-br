@@ -4,12 +4,14 @@
 
 
 
+[[ability-to-remove-subscriptions]]
 === Capacidade de remover assinaturas
 
 Agora você pode remover assinaturas da carteira digital caso tenha cancelado a assinatura delas.
 
 
 
+[[view-consumed-capacity-for-marketplace-subscriptions]]
 === Exibir capacidade consumida para assinaturas do Marketplace
 
 Ao visualizar assinaturas PAYGO, agora você pode visualizar a capacidade consumida da assinatura.

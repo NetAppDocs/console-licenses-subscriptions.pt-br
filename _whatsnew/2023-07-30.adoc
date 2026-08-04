@@ -4,6 +4,7 @@
 
 
 
+[[usage-reports-enhancements]]
 === Melhorias nos relatórios de uso
 
 Várias melhorias nos relatórios de uso do Cloud Volumes ONTAP já estão disponíveis:

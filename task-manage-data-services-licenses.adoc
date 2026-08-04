@@ -32,6 +32,7 @@ As instruções nesta página fornecem informações que se aplicam a cada servi
 
 
 
+[[obtain-a-license-file]]
 == Obter um arquivo de licença
 
 Você deve obter um arquivo de licença NetApp para fazer upload se o Console não tiver acesso à Internet (instalações em modo privado).
@@ -68,6 +69,7 @@ conta-ea10e1c6
 
 
 
+[[add-a-license]]
 == Adicionar uma licença
 
 As informações da licença são exibidas automaticamente na seção **Licenses and subscriptions** se a conta do NetApp Console associada à licença também for uma conta do NetApp Support Site e tiver acesso à internet. Se você usou uma conta do Console que não está associada à sua conta do NSS, será necessário adicionar uma licença manualmente.
@@ -99,6 +101,7 @@ Se a sua conta do site de suporte da NetApp não estiver disponível na lista su
 
 
 
+[[update-a-license]]
 == Atualizar uma licença
 
 O Console notifica você quando o prazo da sua licença está próximo do vencimento ou quando sua capacidade licenciada se aproxima do limite.  Atualize sua licença antes que ela expire para evitar interrupções nos seus serviços de dados NetApp ou Cloud Volumes ONTAP.
@@ -134,6 +137,7 @@ Após concluir o pagamento e registrar a licença no Site de Suporte da NetApp ,
 
 
 
+[[view-license-status]]
 == Ver status da licença
 
 Para gerenciar licenças, você pode agrupá-las com base no nome do serviço.  Isso permite que você veja todas as licenças relacionadas a um serviço específico.  Você pode expandir uma linha para visualizar informações detalhadas sobre cada licença relacionada ao serviço.  A linha raiz de cada serviço exibe o nome do serviço e a capacidade usada para esse serviço.  As licenças são agrupadas automaticamente por nome de serviço.  A linha raiz de cada serviço mostra o nome do serviço e a capacidade usada para esse serviço.

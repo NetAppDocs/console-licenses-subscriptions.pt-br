@@ -25,6 +25,7 @@ O Console exibe detalhes sobre clusters ONTAP locais que você descobriu como si
 
 
 
+[[view-cluster-information-and-contract-details]]
 == Ver informações do cluster e detalhes do contrato
 
 Visualize o status dos contratos de hardware e software dos seus clusters ONTAP locais para que você possa renová-los antes que expirem.
@@ -44,6 +45,7 @@ Se você for solicitado a inserir as credenciais da sua conta do NetApp Support 
 
 
 
+[[discover-clusters]]
 == Descubra clusters
 
 Se você não descobriu um cluster ONTAP local como um sistema, você pode fazer isso no Console.  Depois de descoberto, um cluster fica disponível como um sistema para que você possa gerenciá-lo.

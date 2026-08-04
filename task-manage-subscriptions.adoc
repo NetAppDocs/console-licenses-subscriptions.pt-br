@@ -27,6 +27,7 @@ NOTE: A página *Assinaturas do Marketplace* lista todas as licenças.  Para obt
 
 
 
+[[add-a-new-marketplace-subscription]]
 == Adicionar uma nova assinatura de mercado
 
 Você pode assinar um marketplace diretamente do Console.
@@ -46,6 +47,7 @@ Você pode assinar um marketplace diretamente do Console.
 
 
 
+[[view-your-subscriptions]]
 == Ver suas assinaturas
 
 Você pode visualizar detalhes sobre cada assinatura PAYGO e contrato anual associado à sua organização ou conta do Console.
@@ -91,6 +93,7 @@ Contratos::
 
 
 
+[[rename-a-subscription]]
 == Renomear uma assinatura
 
 Você pode renomear uma assinatura para identificar melhor como sua organização a utiliza.
@@ -103,6 +106,7 @@ Você pode renomear uma assinatura para identificar melhor como sua organizaçã
 
 
 
+[[configure-a-subscription-with-a-provider-credential]]
 == Configurar uma assinatura com uma credencial de provedor
 
 As assinaturas geralmente são configuradas com a credencial do provedor que você criou quando se inscreveu.  Em alguns casos, pode ser necessário reconfigurar uma assinatura para usar uma credencial diferente para alterar como ela é cobrada.  A credencial que você associa a uma assinatura também deve estar associada a um agente.
@@ -120,6 +124,7 @@ A opção Configurar fica esmaecida se você cancelou uma assinatura.
 
 
 
+[[associate-a-subscription-with-a-console-organization]]
 == Associar uma assinatura a uma organização do Console
 
 Associar uma assinatura a uma organização garante que os membros dessa organização possam usar essa assinatura para cobrança.
@@ -141,6 +146,7 @@ NOTE: O Console oferece suporte ao Gerenciamento de Identidade e Acesso (IAM) no
 
 
 
+[[view-credentials-associated-with-a-subscription]]
 == Exibir credenciais associadas a uma assinatura
 
 Você pode visualizar as credenciais de uma assinatura específica na página *Assinaturas do Marketplace*.  Isso permite que você verifique como a assinatura é cobrada.  Como as credenciais estão vinculadas ao agente que você está usando, você deve selecionar o agente associado à assinatura que deseja visualizar.
@@ -156,6 +162,7 @@ NOTE: Use o menu suspenso Agente na barra de navegação superior para alternar 
 
 
 
+[[remove-a-subscription]]
 === Remover uma assinatura
 
 Ao cancelar uma assinatura no seu provedor de nuvem (AWS, Google Cloud ou Azure), o Console exibe o status da assinatura como *Unsubscribed*. Após cancelar uma assinatura, você também pode removê-la de Licenses and subscriptions.

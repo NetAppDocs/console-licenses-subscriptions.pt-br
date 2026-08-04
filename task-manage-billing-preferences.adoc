@@ -25,6 +25,7 @@ Você pode configurar e gerenciar as preferências de faturamento no NetApp Cons
 
 
 
+[[set-billing-preferences]]
 == Defina as preferências de faturamento
 
 Você pode selecionar como o Console aplica as cobranças de uso em diferentes fontes de faturamento.  Isso determina quais contas serão cobradas primeiro e como as renovações serão gerenciadas.
@@ -54,6 +55,7 @@ NOTE: Alterar o modo de faturamento redistribui a forma como as taxas de serviç
 
 
 
+[[enable-custom-cloud-volumes-ontap-configuration]]
 == Habilitar configuração personalizada do Cloud Volumes ONTAP
 
 Agora você pode atribuir assinaturas específicas do marketplace a instâncias individuais do Cloud Volumes ONTAP no mesmo provedor de nuvem. Use este modo se sua organização mantiver contas de faturamento diferentes para unidades de negócios ou ambientes distintos.
@@ -73,6 +75,7 @@ WARNING: Após a ativação desta opção, a configuração personalizada do Clo
 
 
 
+[[edit-marketplace-configuration]]
 == Editar configuração do marketplace
 
 Você pode editar os detalhes de configuração do marketplace para associar assinaturas a projetos na nuvem ou para atualizar informações de contrato.
@@ -98,6 +101,7 @@ TIP: Para associar uma assinatura a vários projetos na nuvem, certifique-se de 
 
 
 
+[[confirm-or-revert-billing-changes]]
 == Confirme ou reverta as alterações de faturamento.
 
 Toda atualização das preferências de faturamento requer confirmação para evitar alterações acidentais.

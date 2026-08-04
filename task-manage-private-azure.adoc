@@ -34,6 +34,7 @@ Aceite e assine uma oferta privada do Marketplace para o NetApp Console no porta
 
 
 
+[[accept-and-subscribe-to-the-private-offer-in-the-azure-portal]]
 == Aceite e assine a oferta privada no portal do Azure
 
 Uma assinatura do Azure pode ser associada a apenas uma assinatura do Marketplace. Se quiser usar duas assinaturas diferentes do Marketplace para cargas de trabalho na mesma assinatura do Azure, você deverá criar duas contas de Console separadas, uma para cada assinatura.  Se você tiver várias instâncias do Cloud Volumes ONTAP e quiser dividir o faturamento entre diferentes assinaturas, crie contas de console separadas para cada assinatura.
