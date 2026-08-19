@@ -73,6 +73,34 @@ A partir daí, você pode:
 
 
 
+[[flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws]]
+== Faturamento flexível para Cloud Volumes ONTAP e serviços de dados na AWS
+
+Na AWS, a capacidade do Cloud Volumes ONTAP e os serviços de dados da NetApp podem ser faturados por meio de diferentes assinaturas do AWS Marketplace. Para obter detalhes sobre as alterações e recomendações do AWS Enterprise Discount Program (EDP), consulte o link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Notas de lançamento do Cloud Volumes ONTAP"].
+
+Se tanto uma assinatura independente do Cloud Volumes ONTAP quanto a assinatura do NetApp Intelligent Services (NIS) estiverem disponíveis para sua conta da AWS, você pode usar as *Preferências de faturamento* para selecionar qual assinatura será usada para o faturamento da capacidade do Cloud Volumes ONTAP.
+
+
+NOTE: O comportamento de faturamento depende de você já ter sistemas Cloud Volumes ONTAP em execução e faturados pelo NIS, ou de estar implantando novos sistemas após adicionar a assinatura independente do Cloud Volumes ONTAP. Para sistemas existentes, adicionar a assinatura independente não altera o faturamento, a menos que você atualize as *Billing preferences*. Para novas implantações criadas após a disponibilização da assinatura independente, a assinatura independente será usada por padrão para o faturamento da capacidade do Cloud Volumes ONTAP (Essentials/Freemium), a menos que você a substitua em *Billing preferences*.
+
+* Assinatura independente do Cloud Volumes ONTAP (recomendada): capacidade do Cloud Volumes ONTAP (Essentials/Freemium)
+* NetApp Intelligent Services (NIS) assinatura: NetApp data services (e Cloud Volumes ONTAP Professional)
+
+
+A assinatura independente do Cloud Volumes ONTAP suporta apenas os pacotes Essentials e Freemium baseados em capacidade. O pacote Professional não é suportado e continua a ser cobrado por meio da NIS. Se você tiver apenas a assinatura independente associada, poderá implantar o Cloud Volumes ONTAP usando o Essentials, mas configurar Backup e Recovery requer uma assinatura diferente.
+
+
+
+[[where-to-configure-it]]
+=== Onde configurar
+
+Você associa assinaturas do AWS Marketplace em *Administração > Licenses and subscriptions > Marketplace subscriptions* e escolhe a marketplace subscription usada para o Cloud Volumes ONTAP faturamento de capacidade em *Administração > Licenses and subscriptions > Billing preferences*. Você pode verificar os detalhes de cobrança usando os relatórios de uso do Cloud Volumes ONTAP.
+
+
+NOTE: Não ocorre medição duplicada quando você usa vários tipos de assinatura ou migra entre listings.
+
+
+
 [[fields]]
 == Campos
 
@@ -85,7 +113,7 @@ Os campos de faturamento armazenam metadados sobre como cada licença ou assinat
 
 Os campos do Marketplace descrevem contratos originados de um provedor de nuvem, como AWS, Azure ou Google Cloud. Esses campos definem como o NetApp Console conecta suas assinaturas com as informações de faturamento armazenadas no marketplace do provedor. Eles também controlam como as renovações, as atribuições regionais e as contas de faturamento são gerenciadas.
 
-* *Fornecedor de marketplace* — Identifica a plataforma em nuvem onde a cobrança é processada.  O fornecedor determina as funcionalidades suportadas, os tipos de contrato e as regras de renovação.  Por exemplo, as assinaturas do AWS Marketplace usam faturamento baseado em conta, enquanto o Azure pode oferecer suporte a modelos baseados em conta e em locatário.
+* *Provedor do marketplace* — Identifica a plataforma de nuvem onde a cobrança é gerenciada. O provedor determina os recursos suportados, os tipos de contrato e as regras de renovação. Por exemplo, as assinaturas do marketplace da AWS usam cobrança baseada em conta, enquanto o Azure pode oferecer suporte a modelos baseados em conta e em locatário.
 * *ID da conta de faturamento ou da assinatura* — Especifica o identificador exclusivo da conta usada para processar as cobranças.  Isso garante que os dados de utilização sejam faturados ao perfil de faturamento em nuvem correto.
 * *Duração do contrato* — Define a duração da assinatura e as configurações de renovação.
 

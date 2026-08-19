@@ -32,6 +32,9 @@ NOTE: A página *Assinaturas do Marketplace* lista todas as licenças.  Para obt
 
 Você pode assinar um marketplace diretamente do Console.
 
+
+NOTE: Para a AWS, sua conta pode ter mais de uma assinatura do marketplace da NetApp disponível. Se você associar apenas a assinatura independente do Cloud Volumes ONTAP, poderá implantar o Cloud Volumes ONTAP usando o Essentials, mas configurar o Backup e Recuperação exige uma assinatura diferente. Para escolher qual assinatura será usada para o faturamento da capacidade do Cloud Volumes ONTAP (incluindo a alteração do faturamento para sistemas existentes), acesse *Administração > Licenses and subscriptions > Preferências de faturamento*.
+
 .Passos
 . No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
