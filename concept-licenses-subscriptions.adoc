@@ -24,7 +24,7 @@ Você pode gerenciar e monitorar licenças adquiridas da NetApp (BYOL), assinatu
 As informações de licença e assinatura são exibidas automaticamente no Console quando sua conta do Console também está associada a uma conta do NetApp Support Site (NSS).  Se sua conta do Console não estiver associada a uma conta NSS, você precisará adicionar licenças manualmente.  Quando as licenças são adicionadas manualmente, o uso, a capacidade e outros detalhes não serão atualizados automaticamente.
 
 
-NOTE: Você precisa de um agente do Console implantado para visualizar informações de assinatura.  Um agente também é necessário para visualizar licenças de nós para o Cloud Volumes ONTAP.
+NOTE: Você precisa de um agente do Console implantado para visualizar informações de assinatura. Um agente também é necessário para visualizar licenças BYOL para o Cloud Volumes ONTAP.
 
 
 
