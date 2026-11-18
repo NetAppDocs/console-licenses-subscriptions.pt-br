@@ -33,15 +33,22 @@ NOTE: A página *Assinaturas do Marketplace* lista todas as licenças.  Para obt
 Você pode assinar um marketplace diretamente do Console.
 
 
-NOTE: Para a AWS, sua conta pode ter mais de uma assinatura do marketplace da NetApp disponível. Se você associar apenas a assinatura independente do Cloud Volumes ONTAP, poderá implantar o Cloud Volumes ONTAP usando o Essentials, mas configurar o Backup e Recuperação exige uma assinatura diferente. Para escolher qual assinatura será usada para o faturamento da capacidade do Cloud Volumes ONTAP (incluindo a alteração do faturamento para sistemas existentes), acesse *Administração > Licenses and subscriptions > Preferências de faturamento*.
+NOTE: Para a AWS, sua conta pode ter mais de uma assinatura do marketplace NetApp disponível, em quatro tipos de oferta: somente o Cloud Volumes ONTAP (contrato anual), somente o Cloud Volumes ONTAP (PAYGO), o NetApp Intelligent Services (contrato anual) e o NetApp Intelligent Services (PAYGO). Se você associar a assinatura somente do Cloud Volumes ONTAP, poderá implantar o Cloud Volumes ONTAP usando o Essentials, mas para configurar o Backup and Recovery é necessária uma assinatura diferente. Para escolher qual assinatura é usada para o faturamento de capacidade do Cloud Volumes ONTAP (incluindo a alteração do faturamento de sistemas existentes), acesse *Administration > Licenses and subscriptions > Billing preferences*.
 
 .Passos
 . No menu do NetApp Console , selecione *Administração > Licenses and subscriptions*.
 . Selecione *Assinaturas do Marketplace*.
 . Acima da tabela *Assinaturas*, selecione *Adicionar assinatura*.
-. Na caixa de diálogo Adicionar assinatura, selecione um provedor de nuvem.
+. Na caixa de diálogo *Adicionar assinatura*, selecione um provedor de nuvem.
 +
-.. Ao escolher uma assinatura da AWS, escolha se deseja um contrato anual ou uma assinatura PAYGO.
+.. Ao escolher uma assinatura da AWS, selecione a oferta desejada:
++
+*** Apenas o Cloud Volumes ONTAP (contrato anual)
+*** Apenas o Cloud Volumes ONTAP (PAYGO)
+*** NetApp Intelligent Services (contrato anual)
+*** O NetApp Intelligent Services (PAYGO)
+
+
 
 
 . Selecione *Adicionar assinatura* para navegar até o mercado do provedor e concluir as etapas fornecidas.
@@ -152,7 +159,7 @@ NOTE: O Console oferece suporte ao Gerenciamento de Identidade e Acesso (IAM) no
 [[view-credentials-associated-with-a-subscription]]
 == Exibir credenciais associadas a uma assinatura
 
-Você pode visualizar as credenciais de uma assinatura específica na página *Assinaturas do Marketplace*.  Isso permite que você verifique como a assinatura é cobrada.  Como as credenciais estão vinculadas ao agente que você está usando, você deve selecionar o agente associado à assinatura que deseja visualizar.
+Você pode visualizar as credenciais de uma assinatura específica na página *Marketplace subscriptions*. Isso permite verificar como a assinatura é cobrada. Como as credenciais estão vinculadas ao agente que você está usando, é necessário selecionar o agente associado à assinatura que você deseja visualizar.
 
 
 NOTE: Use o menu suspenso Agente na barra de navegação superior para alternar agentes, se necessário.

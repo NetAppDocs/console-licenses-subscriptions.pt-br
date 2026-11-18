@@ -78,16 +78,29 @@ A partir daí, você pode:
 
 Na AWS, a capacidade do Cloud Volumes ONTAP e os serviços de dados da NetApp podem ser faturados por meio de diferentes assinaturas do AWS Marketplace. Para obter detalhes sobre as alterações e recomendações do AWS Enterprise Discount Program (EDP), consulte o link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Notas de lançamento do Cloud Volumes ONTAP"].
 
-Se tanto uma assinatura independente do Cloud Volumes ONTAP quanto a assinatura do NetApp Intelligent Services (NIS) estiverem disponíveis para sua conta da AWS, você pode usar as *Preferências de faturamento* para selecionar qual assinatura será usada para o faturamento da capacidade do Cloud Volumes ONTAP.
+Ao assinar através do AWS marketplace, você pode escolher entre quatro ofertas:
+
+[cols="1,3"]
+|===
+| Oferta | Descrição 
 
 
-NOTE: O comportamento de faturamento depende de você já ter sistemas Cloud Volumes ONTAP em execução e faturados pelo NIS, ou de estar implantando novos sistemas após adicionar a assinatura independente do Cloud Volumes ONTAP. Para sistemas existentes, adicionar a assinatura independente não altera o faturamento, a menos que você atualize as *Billing preferences*. Para novas implantações criadas após a disponibilização da assinatura independente, a assinatura independente será usada por padrão para o faturamento da capacidade do Cloud Volumes ONTAP (Essentials/Freemium), a menos que você a substitua em *Billing preferences*.
-
-* Assinatura independente do Cloud Volumes ONTAP (recomendada): capacidade do Cloud Volumes ONTAP (Essentials/Freemium)
-* NetApp Intelligent Services (NIS) assinatura: NetApp data services (e Cloud Volumes ONTAP Professional)
+| *Somente o Cloud Volumes ONTAP (contrato anual)* | Oferta independente do Cloud Volumes ONTAP com faturamento anual. Recomendada para novas implantações do Cloud Volumes ONTAP. 
 
 
-A assinatura independente do Cloud Volumes ONTAP suporta apenas os pacotes Essentials e Freemium baseados em capacidade. O pacote Professional não é suportado e continua a ser cobrado por meio da NIS. Se você tiver apenas a assinatura independente associada, poderá implantar o Cloud Volumes ONTAP usando o Essentials, mas configurar Backup e Recovery requer uma assinatura diferente.
+| *Somente o Cloud Volumes ONTAP (PAYGO)* | Oferta independente do Cloud Volumes ONTAP com faturamento flexível baseado no uso. Recomendado para novas implantações do Cloud Volumes ONTAP. 
+
+
+| *NetApp Intelligent Services (contrato anual)* | NetApp serviços de dados com faturamento anual. Compatível com o Cloud Volumes ONTAP apenas para contratos existentes. 
+
+
+| *O NetApp Intelligent Services (PAYGO)* | NetApp serviços de dados com faturamento flexível baseado no uso. Oferece suporte a Cloud Volumes ONTAP apenas para contratos existentes. 
+|===
+Se mais de uma dessas assinaturas estiver associada à sua conta da AWS, use *Preferências de faturamento* para selecionar qual assinatura é usada para o faturamento da capacidade do Cloud Volumes ONTAP.
+
+O comportamento do faturamento depende de você já ter sistemas do Cloud Volumes ONTAP em execução e faturados por meio de uma assinatura do NetApp Intelligent Services, ou de você estar implantando novos sistemas após adicionar uma assinatura exclusiva do Cloud Volumes ONTAP. Para sistemas existentes, adicionar uma assinatura exclusiva do Cloud Volumes ONTAP não altera o faturamento, a menos que você atualize as *preferências de faturamento*. Para novas implantações, uma assinatura exclusiva do Cloud Volumes ONTAP é usada por padrão para o faturamento da capacidade do Cloud Volumes ONTAP (Essentials/Freemium), a menos que você a substitua em *preferências de faturamento*.
+
+As ofertas somente do Cloud Volumes ONTAP suportam apenas os pacotes Essentials e Freemium baseados em capacidade. O pacote Professional não é compatível com nenhuma das ofertas somente do Cloud Volumes ONTAP e continua sendo cobrado por meio de uma assinatura do NetApp Intelligent Services. Se você tiver associada apenas uma assinatura somente do Cloud Volumes ONTAP, poderá implantar o Cloud Volumes ONTAP usando o Essentials, mas para configurar Backup and Recovery é necessária uma assinatura do NetApp Intelligent Services.
 
 
 
